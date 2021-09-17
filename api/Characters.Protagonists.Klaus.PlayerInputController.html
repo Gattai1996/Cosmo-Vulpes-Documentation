@@ -1,0 +1,893 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PlayerInputController
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PlayerInputController
+   ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Characters.Protagonists.Klaus.PlayerInputController">
+  
+  
+  <h1 id="Characters_Protagonists_Klaus_PlayerInputController" data-uid="Characters.Protagonists.Klaus.PlayerInputController" class="text-break">Class PlayerInputController
+  </h1>
+  <div class="markdown level0 summary"><p>Receives and controls all inputs from Player. Use the static Instance and public properties to access the inputs.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">PlayerInputController</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.runInEditMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Characters.Protagonists.Klaus.html">Characters.Protagonists.Klaus</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="Characters_Protagonists_Klaus_PlayerInputController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PlayerInputController : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=Characters_Protagonists_Klaus_PlayerInputController_AttackMelee.md&amp;value=---%0Auid%3A%20Characters.Protagonists.Klaus.PlayerInputController.AttackMelee%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Scripts/Characters/Protagonists/Klaus/PlayerInputController.cs/#L45">View Source</a>
+  </span>
+  <a id="Characters_Protagonists_Klaus_PlayerInputController_AttackMelee_" data-uid="Characters.Protagonists.Klaus.PlayerInputController.AttackMelee*"></a>
+  <h4 id="Characters_Protagonists_Klaus_PlayerInputController_AttackMelee" data-uid="Characters.Protagonists.Klaus.PlayerInputController.AttackMelee">AttackMelee</h4>
+  <div class="markdown level1 summary"><p>A boolean representing: the Player is pressing <code>AttackMelee</code> key?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AttackMelee { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=Characters_Protagonists_Klaus_PlayerInputController_Bomb.md&amp;value=---%0Auid%3A%20Characters.Protagonists.Klaus.PlayerInputController.Bomb%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Scripts/Characters/Protagonists/Klaus/PlayerInputController.cs/#L53">View Source</a>
+  </span>
+  <a id="Characters_Protagonists_Klaus_PlayerInputController_Bomb_" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Bomb*"></a>
+  <h4 id="Characters_Protagonists_Klaus_PlayerInputController_Bomb" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Bomb">Bomb</h4>
+  <div class="markdown level1 summary"><p>A boolean representing: the Player is pressing <code>Bomb</code> key?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Bomb { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=Characters_Protagonists_Klaus_PlayerInputController_Crouch.md&amp;value=---%0Auid%3A%20Characters.Protagonists.Klaus.PlayerInputController.Crouch%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Scripts/Characters/Protagonists/Klaus/PlayerInputController.cs/#L69">View Source</a>
+  </span>
+  <a id="Characters_Protagonists_Klaus_PlayerInputController_Crouch_" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Crouch*"></a>
+  <h4 id="Characters_Protagonists_Klaus_PlayerInputController_Crouch" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Crouch">Crouch</h4>
+  <div class="markdown level1 summary"><p>A boolean representing: the Player is pressing <code>Crouch</code> key?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Crouch { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=Characters_Protagonists_Klaus_PlayerInputController_Dash.md&amp;value=---%0Auid%3A%20Characters.Protagonists.Klaus.PlayerInputController.Dash%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Scripts/Characters/Protagonists/Klaus/PlayerInputController.cs/#L73">View Source</a>
+  </span>
+  <a id="Characters_Protagonists_Klaus_PlayerInputController_Dash_" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Dash*"></a>
+  <h4 id="Characters_Protagonists_Klaus_PlayerInputController_Dash" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Dash">Dash</h4>
+  <div class="markdown level1 summary"><p>A boolean representing: the Player is pressing <code>Dash</code> key?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Dash { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=Characters_Protagonists_Klaus_PlayerInputController_GrappleHook.md&amp;value=---%0Auid%3A%20Characters.Protagonists.Klaus.PlayerInputController.GrappleHook%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Scripts/Characters/Protagonists/Klaus/PlayerInputController.cs/#L61">View Source</a>
+  </span>
+  <a id="Characters_Protagonists_Klaus_PlayerInputController_GrappleHook_" data-uid="Characters.Protagonists.Klaus.PlayerInputController.GrappleHook*"></a>
+  <h4 id="Characters_Protagonists_Klaus_PlayerInputController_GrappleHook" data-uid="Characters.Protagonists.Klaus.PlayerInputController.GrappleHook">GrappleHook</h4>
+  <div class="markdown level1 summary"><p>A boolean representing: the Player is pressing <code>GrappleHook</code> key?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GrappleHook { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=Characters_Protagonists_Klaus_PlayerInputController_Instance.md&amp;value=---%0Auid%3A%20Characters.Protagonists.Klaus.PlayerInputController.Instance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Scripts/Characters/Protagonists/Klaus/PlayerInputController.cs/#L17">View Source</a>
+  </span>
+  <a id="Characters_Protagonists_Klaus_PlayerInputController_Instance_" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Instance*"></a>
+  <h4 id="Characters_Protagonists_Klaus_PlayerInputController_Instance" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Instance">Instance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PlayerInputController Instance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Characters.Protagonists.Klaus.PlayerInputController.html">PlayerInputController</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=Characters_Protagonists_Klaus_PlayerInputController_Jetpack.md&amp;value=---%0Auid%3A%20Characters.Protagonists.Klaus.PlayerInputController.Jetpack%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Scripts/Characters/Protagonists/Klaus/PlayerInputController.cs/#L57">View Source</a>
+  </span>
+  <a id="Characters_Protagonists_Klaus_PlayerInputController_Jetpack_" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Jetpack*"></a>
+  <h4 id="Characters_Protagonists_Klaus_PlayerInputController_Jetpack" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Jetpack">Jetpack</h4>
+  <div class="markdown level1 summary"><p>A boolean representing: the Jetpack is pressing <code>Jump</code> key?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Jetpack { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=Characters_Protagonists_Klaus_PlayerInputController_Jump.md&amp;value=---%0Auid%3A%20Characters.Protagonists.Klaus.PlayerInputController.Jump%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Scripts/Characters/Protagonists/Klaus/PlayerInputController.cs/#L41">View Source</a>
+  </span>
+  <a id="Characters_Protagonists_Klaus_PlayerInputController_Jump_" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Jump*"></a>
+  <h4 id="Characters_Protagonists_Klaus_PlayerInputController_Jump" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Jump">Jump</h4>
+  <div class="markdown level1 summary"><p>A boolean representing: the Player is pressing <code>Jump</code> key?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Jump { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=Characters_Protagonists_Klaus_PlayerInputController_MovementAxis.md&amp;value=---%0Auid%3A%20Characters.Protagonists.Klaus.PlayerInputController.MovementAxis%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Scripts/Characters/Protagonists/Klaus/PlayerInputController.cs/#L37">View Source</a>
+  </span>
+  <a id="Characters_Protagonists_Klaus_PlayerInputController_MovementAxis_" data-uid="Characters.Protagonists.Klaus.PlayerInputController.MovementAxis*"></a>
+  <h4 id="Characters_Protagonists_Klaus_PlayerInputController_MovementAxis" data-uid="Characters.Protagonists.Klaus.PlayerInputController.MovementAxis">MovementAxis</h4>
+  <div class="markdown level1 summary"><p>A Vector2 representing the Player input of WASD keys or left joystick/arrow keys.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 MovementAxis { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=Characters_Protagonists_Klaus_PlayerInputController_Pause.md&amp;value=---%0Auid%3A%20Characters.Protagonists.Klaus.PlayerInputController.Pause%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Scripts/Characters/Protagonists/Klaus/PlayerInputController.cs/#L77">View Source</a>
+  </span>
+  <a id="Characters_Protagonists_Klaus_PlayerInputController_Pause_" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Pause*"></a>
+  <h4 id="Characters_Protagonists_Klaus_PlayerInputController_Pause" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Pause">Pause</h4>
+  <div class="markdown level1 summary"><p>A boolean representing: the Player is pressing <code>Pause</code> key?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Pause { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=Characters_Protagonists_Klaus_PlayerInputController_PlayerActions.md&amp;value=---%0Auid%3A%20Characters.Protagonists.Klaus.PlayerInputController.PlayerActions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Scripts/Characters/Protagonists/Klaus/PlayerInputController.cs/#L79">View Source</a>
+  </span>
+  <a id="Characters_Protagonists_Klaus_PlayerInputController_PlayerActions_" data-uid="Characters.Protagonists.Klaus.PlayerInputController.PlayerActions*"></a>
+  <h4 id="Characters_Protagonists_Klaus_PlayerInputController_PlayerActions" data-uid="Characters.Protagonists.Klaus.PlayerInputController.PlayerActions">PlayerActions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PlayerActions PlayerActions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="UnityInputSystem.PlayerActions.html">PlayerActions</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=Characters_Protagonists_Klaus_PlayerInputController_Run.md&amp;value=---%0Auid%3A%20Characters.Protagonists.Klaus.PlayerInputController.Run%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Scripts/Characters/Protagonists/Klaus/PlayerInputController.cs/#L65">View Source</a>
+  </span>
+  <a id="Characters_Protagonists_Klaus_PlayerInputController_Run_" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Run*"></a>
+  <h4 id="Characters_Protagonists_Klaus_PlayerInputController_Run" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Run">Run</h4>
+  <div class="markdown level1 summary"><p>A boolean representing: the Player is pressing <code>Run</code> key?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Run { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=Characters_Protagonists_Klaus_PlayerInputController_Trampoline.md&amp;value=---%0Auid%3A%20Characters.Protagonists.Klaus.PlayerInputController.Trampoline%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Scripts/Characters/Protagonists/Klaus/PlayerInputController.cs/#L49">View Source</a>
+  </span>
+  <a id="Characters_Protagonists_Klaus_PlayerInputController_Trampoline_" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Trampoline*"></a>
+  <h4 id="Characters_Protagonists_Klaus_PlayerInputController_Trampoline" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Trampoline">Trampoline</h4>
+  <div class="markdown level1 summary"><p>A boolean representing: the Player is pressing <code>Trampoline</code> key?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Trampoline { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=Characters_Protagonists_Klaus_PlayerInputController_Awake.md&amp;value=---%0Auid%3A%20Characters.Protagonists.Klaus.PlayerInputController.Awake%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Scripts/Characters/Protagonists/Klaus/PlayerInputController.cs/#L85">View Source</a>
+  </span>
+  <a id="Characters_Protagonists_Klaus_PlayerInputController_Awake_" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Awake*"></a>
+  <h4 id="Characters_Protagonists_Klaus_PlayerInputController_Awake" data-uid="Characters.Protagonists.Klaus.PlayerInputController.Awake">Awake()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Awake()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=Characters_Protagonists_Klaus_PlayerInputController_RebindInputAction_UnityEngine_InputSystem_InputAction_TMPro_TextMeshProUGUI_.md&amp;value=---%0Auid%3A%20Characters.Protagonists.Klaus.PlayerInputController.RebindInputAction(UnityEngine.InputSystem.InputAction%2CTMPro.TextMeshProUGUI)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Scripts/Characters/Protagonists/Klaus/PlayerInputController.cs/#L157">View Source</a>
+  </span>
+  <a id="Characters_Protagonists_Klaus_PlayerInputController_RebindInputAction_" data-uid="Characters.Protagonists.Klaus.PlayerInputController.RebindInputAction*"></a>
+  <h4 id="Characters_Protagonists_Klaus_PlayerInputController_RebindInputAction_UnityEngine_InputSystem_InputAction_TMPro_TextMeshProUGUI_" data-uid="Characters.Protagonists.Klaus.PlayerInputController.RebindInputAction(UnityEngine.InputSystem.InputAction,TMPro.TextMeshProUGUI)">RebindInputAction(InputAction, TextMeshProUGUI)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RebindInputAction(InputAction inputAction, TextMeshProUGUI textMeshProUGUI)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.InputSystem.InputAction</span></td>
+        <td><span class="parametername">inputAction</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">TMPro.TextMeshProUGUI</span></td>
+        <td><span class="parametername">textMeshProUGUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=Characters_Protagonists_Klaus_PlayerInputController.md&amp;value=---%0Auid%3A%20Characters.Protagonists.Klaus.PlayerInputController%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Scripts/Characters/Protagonists/Klaus/PlayerInputController.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

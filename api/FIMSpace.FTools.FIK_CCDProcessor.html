@@ -1,0 +1,744 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FIK_CCDProcessor
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FIK_CCDProcessor
+   ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="FIMSpace.FTools.FIK_CCDProcessor">
+  
+  
+  <h1 id="FIMSpace_FTools_FIK_CCDProcessor" data-uid="FIMSpace.FTools.FIK_CCDProcessor" class="text-break">Class FIK_CCDProcessor
+  </h1>
+  <div class="markdown level0 summary"><p>FC: Class for processing IK logics for multiple bones inverse kinematics</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="FIMSpace.FTools.FIK_ProcessorBase.html">FIK_ProcessorBase</a></div>
+    <div class="level2"><span class="xref">FIK_CCDProcessor</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="FIMSpace.FTools.FIK_ProcessorBase.html#FIMSpace_FTools_FIK_ProcessorBase_IKWeight">FIK_ProcessorBase.IKWeight</a>
+    </div>
+    <div>
+      <a class="xref" href="FIMSpace.FTools.FIK_ProcessorBase.html#FIMSpace_FTools_FIK_ProcessorBase_IKTargetPosition">FIK_ProcessorBase.IKTargetPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="FIMSpace.FTools.FIK_ProcessorBase.html#FIMSpace_FTools_FIK_ProcessorBase_IKTargetRotation">FIK_ProcessorBase.IKTargetRotation</a>
+    </div>
+    <div>
+      <a class="xref" href="FIMSpace.FTools.FIK_ProcessorBase.html#FIMSpace_FTools_FIK_ProcessorBase_LastLocalDirection">FIK_ProcessorBase.LastLocalDirection</a>
+    </div>
+    <div>
+      <a class="xref" href="FIMSpace.FTools.FIK_ProcessorBase.html#FIMSpace_FTools_FIK_ProcessorBase_LocalDirection">FIK_ProcessorBase.LocalDirection</a>
+    </div>
+    <div>
+      <a class="xref" href="FIMSpace.FTools.FIK_ProcessorBase.html#FIMSpace_FTools_FIK_ProcessorBase_fullLength">FIK_ProcessorBase.fullLength</a>
+    </div>
+    <div>
+      <a class="xref" href="FIMSpace.FTools.FIK_ProcessorBase.html#FIMSpace_FTools_FIK_ProcessorBase_Initialized">FIK_ProcessorBase.Initialized</a>
+    </div>
+    <div>
+      <a class="xref" href="FIMSpace.FTools.FIK_ProcessorBase.html#FIMSpace_FTools_FIK_ProcessorBase_Bones">FIK_ProcessorBase.Bones</a>
+    </div>
+    <div>
+      <a class="xref" href="FIMSpace.FTools.FIK_ProcessorBase.html#FIMSpace_FTools_FIK_ProcessorBase_StartBone">FIK_ProcessorBase.StartBone</a>
+    </div>
+    <div>
+      <a class="xref" href="FIMSpace.FTools.FIK_ProcessorBase.html#FIMSpace_FTools_FIK_ProcessorBase_EndBone">FIK_ProcessorBase.EndBone</a>
+    </div>
+    <div>
+      <a class="xref" href="FIMSpace.FTools.FIK_ProcessorBase.html#FIMSpace_FTools_FIK_ProcessorBase_EaseInOutQuint_System_Single_System_Single_System_Single_">FIK_ProcessorBase.EaseInOutQuint(Single, Single, Single)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="FIMSpace.FTools.html">FIMSpace.FTools</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="FIMSpace_FTools_FIK_CCDProcessor_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class FIK_CCDProcessor : FIK_ProcessorBase</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTools_FIK_CCDProcessor__ctor_UnityEngine_Transform___.md&amp;value=---%0Auid%3A%20FIMSpace.FTools.FIK_CCDProcessor.%23ctor(UnityEngine.Transform%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Shared Scripts/IK/FIK_CCDProcessor.cs/#L34">View Source</a>
+  </span>
+  <a id="FIMSpace_FTools_FIK_CCDProcessor__ctor_" data-uid="FIMSpace.FTools.FIK_CCDProcessor.#ctor*"></a>
+  <h4 id="FIMSpace_FTools_FIK_CCDProcessor__ctor_UnityEngine_Transform___" data-uid="FIMSpace.FTools.FIK_CCDProcessor.#ctor(UnityEngine.Transform[])">FIK_CCDProcessor(Transform[])</h4>
+  <div class="markdown level1 summary"><p>Assigning bones for IK processor with CCD IK logics (unlimited bone count) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FIK_CCDProcessor(Transform[] bonesChain)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span>[]</td>
+        <td><span class="parametername">bonesChain</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTools_FIK_CCDProcessor_ContinousSolving.md&amp;value=---%0Auid%3A%20FIMSpace.FTools.FIK_CCDProcessor.ContinousSolving%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Shared Scripts/IK/FIK_CCDProcessor.cs/#L18">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTools_FIK_CCDProcessor_ContinousSolving" data-uid="FIMSpace.FTools.FIK_CCDProcessor.ContinousSolving">ContinousSolving</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContinousSolving</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTools_FIK_CCDProcessor_IKBones.md&amp;value=---%0Auid%3A%20FIMSpace.FTools.FIK_CCDProcessor.IKBones%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Shared Scripts/IK/FIK_CCDProcessor.cs/#L14">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTools_FIK_CCDProcessor_IKBones" data-uid="FIMSpace.FTools.FIK_CCDProcessor.IKBones">IKBones</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FIK_CCDProcessor.CCDIKBone[] IKBones</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FIMSpace.FTools.FIK_CCDProcessor.CCDIKBone.html">FIK_CCDProcessor.CCDIKBone</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTools_FIK_CCDProcessor_MaxStretching.md&amp;value=---%0Auid%3A%20FIMSpace.FTools.FIK_CCDProcessor.MaxStretching%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Shared Scripts/IK/FIK_CCDProcessor.cs/#L26">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTools_FIK_CCDProcessor_MaxStretching" data-uid="FIMSpace.FTools.FIK_CCDProcessor.MaxStretching">MaxStretching</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Range(0F, 1.5F)]
+public float MaxStretching</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTools_FIK_CCDProcessor_ReactionQuality.md&amp;value=---%0Auid%3A%20FIMSpace.FTools.FIK_CCDProcessor.ReactionQuality%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Shared Scripts/IK/FIK_CCDProcessor.cs/#L22">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTools_FIK_CCDProcessor_ReactionQuality" data-uid="FIMSpace.FTools.FIK_CCDProcessor.ReactionQuality">ReactionQuality</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Range(1F, 12F)]
+public int ReactionQuality</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTools_FIK_CCDProcessor_Smoothing.md&amp;value=---%0Auid%3A%20FIMSpace.FTools.FIK_CCDProcessor.Smoothing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Shared Scripts/IK/FIK_CCDProcessor.cs/#L24">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTools_FIK_CCDProcessor_Smoothing" data-uid="FIMSpace.FTools.FIK_CCDProcessor.Smoothing">Smoothing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Range(0F, 1F)]
+public float Smoothing</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTools_FIK_CCDProcessor_StretchCurve.md&amp;value=---%0Auid%3A%20FIMSpace.FTools.FIK_CCDProcessor.StretchCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Shared Scripts/IK/FIK_CCDProcessor.cs/#L27">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTools_FIK_CCDProcessor_StretchCurve" data-uid="FIMSpace.FTools.FIK_CCDProcessor.StretchCurve">StretchCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AnimationCurve StretchCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.AnimationCurve</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTools_FIK_CCDProcessor_SyncWithAnimator.md&amp;value=---%0Auid%3A%20FIMSpace.FTools.FIK_CCDProcessor.SyncWithAnimator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Shared Scripts/IK/FIK_CCDProcessor.cs/#L20">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTools_FIK_CCDProcessor_SyncWithAnimator" data-uid="FIMSpace.FTools.FIK_CCDProcessor.SyncWithAnimator">SyncWithAnimator</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Range(0F, 1F)]
+public float SyncWithAnimator</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTools_FIK_CCDProcessor_Use2D.md&amp;value=---%0Auid%3A%20FIMSpace.FTools.FIK_CCDProcessor.Use2D%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Shared Scripts/IK/FIK_CCDProcessor.cs/#L29">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTools_FIK_CCDProcessor_Use2D" data-uid="FIMSpace.FTools.FIK_CCDProcessor.Use2D">Use2D</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Use2D</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTools_FIK_CCDProcessor_ActiveLength.md&amp;value=---%0Auid%3A%20FIMSpace.FTools.FIK_CCDProcessor.ActiveLength%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Shared Scripts/IK/FIK_CCDProcessor.cs/#L31">View Source</a>
+  </span>
+  <a id="FIMSpace_FTools_FIK_CCDProcessor_ActiveLength_" data-uid="FIMSpace.FTools.FIK_CCDProcessor.ActiveLength*"></a>
+  <h4 id="FIMSpace_FTools_FIK_CCDProcessor_ActiveLength" data-uid="FIMSpace.FTools.FIK_CCDProcessor.ActiveLength">ActiveLength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ActiveLength { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTools_FIK_CCDProcessor_EndIKBone.md&amp;value=---%0Auid%3A%20FIMSpace.FTools.FIK_CCDProcessor.EndIKBone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Shared Scripts/IK/FIK_CCDProcessor.cs/#L16">View Source</a>
+  </span>
+  <a id="FIMSpace_FTools_FIK_CCDProcessor_EndIKBone_" data-uid="FIMSpace.FTools.FIK_CCDProcessor.EndIKBone*"></a>
+  <h4 id="FIMSpace_FTools_FIK_CCDProcessor_EndIKBone" data-uid="FIMSpace.FTools.FIK_CCDProcessor.EndIKBone">EndIKBone</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FIK_CCDProcessor.CCDIKBone EndIKBone { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FIMSpace.FTools.FIK_CCDProcessor.CCDIKBone.html">FIK_CCDProcessor.CCDIKBone</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTools_FIK_CCDProcessor_StartIKBone.md&amp;value=---%0Auid%3A%20FIMSpace.FTools.FIK_CCDProcessor.StartIKBone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Shared Scripts/IK/FIK_CCDProcessor.cs/#L15">View Source</a>
+  </span>
+  <a id="FIMSpace_FTools_FIK_CCDProcessor_StartIKBone_" data-uid="FIMSpace.FTools.FIK_CCDProcessor.StartIKBone*"></a>
+  <h4 id="FIMSpace_FTools_FIK_CCDProcessor_StartIKBone" data-uid="FIMSpace.FTools.FIK_CCDProcessor.StartIKBone">StartIKBone</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FIK_CCDProcessor.CCDIKBone StartIKBone { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FIMSpace.FTools.FIK_CCDProcessor.CCDIKBone.html">FIK_CCDProcessor.CCDIKBone</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTools_FIK_CCDProcessor_AutoLimitAngle_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20FIMSpace.FTools.FIK_CCDProcessor.AutoLimitAngle(System.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Shared Scripts/IK/FIK_CCDProcessor.cs/#L260">View Source</a>
+  </span>
+  <a id="FIMSpace_FTools_FIK_CCDProcessor_AutoLimitAngle_" data-uid="FIMSpace.FTools.FIK_CCDProcessor.AutoLimitAngle*"></a>
+  <h4 id="FIMSpace_FTools_FIK_CCDProcessor_AutoLimitAngle_System_Single_System_Single_" data-uid="FIMSpace.FTools.FIK_CCDProcessor.AutoLimitAngle(System.Single,System.Single)">AutoLimitAngle(Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Limiting angle for all IK bones </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AutoLimitAngle(float angleLimit = 60F, float twistAngleLimit = 50F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">angleLimit</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">twistAngleLimit</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTools_FIK_CCDProcessor_AutoWeightBones_System_Single_.md&amp;value=---%0Auid%3A%20FIMSpace.FTools.FIK_CCDProcessor.AutoWeightBones(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Shared Scripts/IK/FIK_CCDProcessor.cs/#L274">View Source</a>
+  </span>
+  <a id="FIMSpace_FTools_FIK_CCDProcessor_AutoWeightBones_" data-uid="FIMSpace.FTools.FIK_CCDProcessor.AutoWeightBones*"></a>
+  <h4 id="FIMSpace_FTools_FIK_CCDProcessor_AutoWeightBones_System_Single_" data-uid="FIMSpace.FTools.FIK_CCDProcessor.AutoWeightBones(System.Single)">AutoWeightBones(Single)</h4>
+  <div class="markdown level1 summary"><p>Spreading weight over IK bones automatically </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AutoWeightBones(float baseValue = 1F)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">baseValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTools_FIK_CCDProcessor_AutoWeightBones_UnityEngine_AnimationCurve_.md&amp;value=---%0Auid%3A%20FIMSpace.FTools.FIK_CCDProcessor.AutoWeightBones(UnityEngine.AnimationCurve)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Shared Scripts/IK/FIK_CCDProcessor.cs/#L286">View Source</a>
+  </span>
+  <a id="FIMSpace_FTools_FIK_CCDProcessor_AutoWeightBones_" data-uid="FIMSpace.FTools.FIK_CCDProcessor.AutoWeightBones*"></a>
+  <h4 id="FIMSpace_FTools_FIK_CCDProcessor_AutoWeightBones_UnityEngine_AnimationCurve_" data-uid="FIMSpace.FTools.FIK_CCDProcessor.AutoWeightBones(UnityEngine.AnimationCurve)">AutoWeightBones(AnimationCurve)</h4>
+  <div class="markdown level1 summary"><p>Spreading weight over IK bones with curve (Clamped01) </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AutoWeightBones(AnimationCurve weightCurve)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.AnimationCurve</span></td>
+        <td><span class="parametername">weightCurve</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTools_FIK_CCDProcessor_GetGoalPivotOffset.md&amp;value=---%0Auid%3A%20FIMSpace.FTools.FIK_CCDProcessor.GetGoalPivotOffset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Shared Scripts/IK/FIK_CCDProcessor.cs/#L213">View Source</a>
+  </span>
+  <a id="FIMSpace_FTools_FIK_CCDProcessor_GetGoalPivotOffset_" data-uid="FIMSpace.FTools.FIK_CCDProcessor.GetGoalPivotOffset*"></a>
+  <h4 id="FIMSpace_FTools_FIK_CCDProcessor_GetGoalPivotOffset" data-uid="FIMSpace.FTools.FIK_CCDProcessor.GetGoalPivotOffset">GetGoalPivotOffset()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Vector3 GetGoalPivotOffset()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTools_FIK_CCDProcessor_Init_UnityEngine_Transform_.md&amp;value=---%0Auid%3A%20FIMSpace.FTools.FIK_CCDProcessor.Init(UnityEngine.Transform)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Shared Scripts/IK/FIK_CCDProcessor.cs/#L49">View Source</a>
+  </span>
+  <a id="FIMSpace_FTools_FIK_CCDProcessor_Init_" data-uid="FIMSpace.FTools.FIK_CCDProcessor.Init*"></a>
+  <h4 id="FIMSpace_FTools_FIK_CCDProcessor_Init_UnityEngine_Transform_" data-uid="FIMSpace.FTools.FIK_CCDProcessor.Init(UnityEngine.Transform)">Init(Transform)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Init(Transform root)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">root</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="FIMSpace.FTools.FIK_ProcessorBase.html#FIMSpace_FTools_FIK_ProcessorBase_Init_UnityEngine_Transform_">FIK_ProcessorBase.Init(Transform)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTools_FIK_CCDProcessor_Update.md&amp;value=---%0Auid%3A%20FIMSpace.FTools.FIK_CCDProcessor.Update%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Shared Scripts/IK/FIK_CCDProcessor.cs/#L86">View Source</a>
+  </span>
+  <a id="FIMSpace_FTools_FIK_CCDProcessor_Update_" data-uid="FIMSpace.FTools.FIK_CCDProcessor.Update*"></a>
+  <h4 id="FIMSpace_FTools_FIK_CCDProcessor_Update" data-uid="FIMSpace.FTools.FIK_CCDProcessor.Update">Update()</h4>
+  <div class="markdown level1 summary"><p>Updating processor with n-bones oriented inverse kinematics </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Update()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="FIMSpace.FTools.FIK_ProcessorBase.html#FIMSpace_FTools_FIK_ProcessorBase_Update">FIK_ProcessorBase.Update()</a></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTools_FIK_CCDProcessor.md&amp;value=---%0Auid%3A%20FIMSpace.FTools.FIK_CCDProcessor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Shared Scripts/IK/FIK_CCDProcessor.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

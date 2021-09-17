@@ -1,0 +1,1245 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BezierPath
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BezierPath
+   ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="PathCreation.BezierPath">
+  
+  
+  <h1 id="PathCreation_BezierPath" data-uid="PathCreation.BezierPath" class="text-break">Class BezierPath
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BezierPath</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="PathCreation.html">PathCreation</a></h6>
+  <h6><strong>Assembly</strong>: PathCreator.dll</h6>
+  <h5 id="PathCreation_BezierPath_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class BezierPath</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath__ctor_System_Collections_Generic_IEnumerable_UnityEngine_Transform__System_Boolean_PathCreation_PathSpace_.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.%23ctor(System.Collections.Generic.IEnumerable%7BUnityEngine.Transform%7D%2CSystem.Boolean%2CPathCreation.PathSpace)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L108">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath__ctor_" data-uid="PathCreation.BezierPath.#ctor*"></a>
+  <h4 id="PathCreation_BezierPath__ctor_System_Collections_Generic_IEnumerable_UnityEngine_Transform__System_Boolean_PathCreation_PathSpace_" data-uid="PathCreation.BezierPath.#ctor(System.Collections.Generic.IEnumerable{UnityEngine.Transform},System.Boolean,PathCreation.PathSpace)">BezierPath(IEnumerable&lt;Transform&gt;, Boolean, PathSpace)</h4>
+  <div class="markdown level1 summary"><p>Creates a path from the positions of the supplied transforms </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BezierPath(IEnumerable&lt;Transform&gt; transforms, bool isClosed = false, PathSpace space = PathSpace.xy)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">UnityEngine.Transform</span>&gt;</td>
+        <td><span class="parametername">transforms</span></td>
+        <td><p>List or array of transforms to create the path from. </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isClosed</span></td>
+        <td><p>Should the end point connect back to the start point? </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="PathCreation.PathSpace.html">PathSpace</a></td>
+        <td><span class="parametername">space</span></td>
+        <td><p>Determines if the path is in 3d space, or clamped to the xy/xz plane </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath__ctor_System_Collections_Generic_IEnumerable_UnityEngine_Vector2__PathCreation_PathSpace_System_Boolean_.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.%23ctor(System.Collections.Generic.IEnumerable%7BUnityEngine.Vector2%7D%2CPathCreation.PathSpace%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L115">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath__ctor_" data-uid="PathCreation.BezierPath.#ctor*"></a>
+  <h4 id="PathCreation_BezierPath__ctor_System_Collections_Generic_IEnumerable_UnityEngine_Vector2__PathCreation_PathSpace_System_Boolean_" data-uid="PathCreation.BezierPath.#ctor(System.Collections.Generic.IEnumerable{UnityEngine.Vector2},PathCreation.PathSpace,System.Boolean)">BezierPath(IEnumerable&lt;Vector2&gt;, PathSpace, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates a path from the supplied 2D points </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BezierPath(IEnumerable&lt;Vector2&gt; points, PathSpace space = PathSpace.xyz, bool isClosed = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">UnityEngine.Vector2</span>&gt;</td>
+        <td><span class="parametername">points</span></td>
+        <td><p>List or array of 2d points to create the path from. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="PathCreation.PathSpace.html">PathSpace</a></td>
+        <td><span class="parametername">space</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isClosed</span></td>
+        <td><p>Should the end point connect back to the start point? </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath__ctor_System_Collections_Generic_IEnumerable_UnityEngine_Vector2__System_Boolean_PathCreation_PathSpace_.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.%23ctor(System.Collections.Generic.IEnumerable%7BUnityEngine.Vector2%7D%2CSystem.Boolean%2CPathCreation.PathSpace)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L101">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath__ctor_" data-uid="PathCreation.BezierPath.#ctor*"></a>
+  <h4 id="PathCreation_BezierPath__ctor_System_Collections_Generic_IEnumerable_UnityEngine_Vector2__System_Boolean_PathCreation_PathSpace_" data-uid="PathCreation.BezierPath.#ctor(System.Collections.Generic.IEnumerable{UnityEngine.Vector2},System.Boolean,PathCreation.PathSpace)">BezierPath(IEnumerable&lt;Vector2&gt;, Boolean, PathSpace)</h4>
+  <div class="markdown level1 summary"><p>Creates a path from the positions of the supplied 2D points </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BezierPath(IEnumerable&lt;Vector2&gt; transforms, bool isClosed = false, PathSpace space = PathSpace.xy)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">UnityEngine.Vector2</span>&gt;</td>
+        <td><span class="parametername">transforms</span></td>
+        <td><p>List or array of transforms to create the path from. </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isClosed</span></td>
+        <td><p>Should the end point connect back to the start point? </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="PathCreation.PathSpace.html">PathSpace</a></td>
+        <td><span class="parametername">space</span></td>
+        <td><p>Determines if the path is in 3d space, or clamped to the xy/xz plane </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath__ctor_System_Collections_Generic_IEnumerable_UnityEngine_Vector3__System_Boolean_PathCreation_PathSpace_.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.%23ctor(System.Collections.Generic.IEnumerable%7BUnityEngine.Vector3%7D%2CSystem.Boolean%2CPathCreation.PathSpace)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L77">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath__ctor_" data-uid="PathCreation.BezierPath.#ctor*"></a>
+  <h4 id="PathCreation_BezierPath__ctor_System_Collections_Generic_IEnumerable_UnityEngine_Vector3__System_Boolean_PathCreation_PathSpace_" data-uid="PathCreation.BezierPath.#ctor(System.Collections.Generic.IEnumerable{UnityEngine.Vector3},System.Boolean,PathCreation.PathSpace)">BezierPath(IEnumerable&lt;Vector3&gt;, Boolean, PathSpace)</h4>
+  <div class="markdown level1 summary"><p>Creates a path from the supplied 3D points </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BezierPath(IEnumerable&lt;Vector3&gt; points, bool isClosed = false, PathSpace space = PathSpace.xyz)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">UnityEngine.Vector3</span>&gt;</td>
+        <td><span class="parametername">points</span></td>
+        <td><p>List or array of points to create the path from. </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isClosed</span></td>
+        <td><p>Should the end point connect back to the start point? </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="PathCreation.PathSpace.html">PathSpace</a></td>
+        <td><span class="parametername">space</span></td>
+        <td><p>Determines if the path is in 3d space, or clamped to the xy/xz plane </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath__ctor_UnityEngine_Vector3_System_Boolean_PathCreation_PathSpace_.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.%23ctor(UnityEngine.Vector3%2CSystem.Boolean%2CPathCreation.PathSpace)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L54">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath__ctor_" data-uid="PathCreation.BezierPath.#ctor*"></a>
+  <h4 id="PathCreation_BezierPath__ctor_UnityEngine_Vector3_System_Boolean_PathCreation_PathSpace_" data-uid="PathCreation.BezierPath.#ctor(UnityEngine.Vector3,System.Boolean,PathCreation.PathSpace)">BezierPath(Vector3, Boolean, PathSpace)</h4>
+  <div class="markdown level1 summary"><p>Creates a two-anchor path centred around the given centre point </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BezierPath(Vector3 centre, bool isClosed = false, PathSpace space = PathSpace.xyz)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">centre</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isClosed</span></td>
+        <td><p>Should the end point connect back to the start point? </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="PathCreation.PathSpace.html">PathSpace</a></td>
+        <td><span class="parametername">space</span></td>
+        <td><p>Determines if the path is in 3d space, or clamped to the xy/xz plane </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_AutoControlLength.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.AutoControlLength%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L213">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_AutoControlLength_" data-uid="PathCreation.BezierPath.AutoControlLength*"></a>
+  <h4 id="PathCreation_BezierPath_AutoControlLength" data-uid="PathCreation.BezierPath.AutoControlLength">AutoControlLength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float AutoControlLength { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_ControlPointMode.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.ControlPointMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L197">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_ControlPointMode_" data-uid="PathCreation.BezierPath.ControlPointMode*"></a>
+  <h4 id="PathCreation_BezierPath_ControlPointMode" data-uid="PathCreation.BezierPath.ControlPointMode">ControlPointMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BezierPath.ControlMode ControlPointMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="PathCreation.BezierPath.ControlMode.html">BezierPath.ControlMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_FlipNormals.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.FlipNormals%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L428">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_FlipNormals_" data-uid="PathCreation.BezierPath.FlipNormals*"></a>
+  <h4 id="PathCreation_BezierPath_FlipNormals" data-uid="PathCreation.BezierPath.FlipNormals">FlipNormals</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool FlipNormals { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_GlobalNormalsAngle.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.GlobalNormalsAngle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L441">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_GlobalNormalsAngle_" data-uid="PathCreation.BezierPath.GlobalNormalsAngle*"></a>
+  <h4 id="PathCreation_BezierPath_GlobalNormalsAngle" data-uid="PathCreation.BezierPath.GlobalNormalsAngle">GlobalNormalsAngle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GlobalNormalsAngle { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_IsClosed.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.IsClosed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L179">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_IsClosed_" data-uid="PathCreation.BezierPath.IsClosed*"></a>
+  <h4 id="PathCreation_BezierPath_IsClosed" data-uid="PathCreation.BezierPath.IsClosed">IsClosed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsClosed { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_Item_System_Int32_.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.Item(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L123">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_Item_" data-uid="PathCreation.BezierPath.Item*"></a>
+  <h4 id="PathCreation_BezierPath_Item_System_Int32_" data-uid="PathCreation.BezierPath.Item(System.Int32)">Item[Int32]</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 this[int i] { get; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">i</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_NumAnchorPoints.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.NumAnchorPoints%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L150">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_NumAnchorPoints_" data-uid="PathCreation.BezierPath.NumAnchorPoints*"></a>
+  <h4 id="PathCreation_BezierPath_NumAnchorPoints" data-uid="PathCreation.BezierPath.NumAnchorPoints">NumAnchorPoints</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NumAnchorPoints { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_NumPoints.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.NumPoints%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L143">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_NumPoints_" data-uid="PathCreation.BezierPath.NumPoints*"></a>
+  <h4 id="PathCreation_BezierPath_NumPoints" data-uid="PathCreation.BezierPath.NumPoints">NumPoints</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NumPoints { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_NumSegments.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.NumSegments%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L157">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_NumSegments_" data-uid="PathCreation.BezierPath.NumSegments*"></a>
+  <h4 id="PathCreation_BezierPath_NumSegments" data-uid="PathCreation.BezierPath.NumSegments">NumSegments</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NumSegments { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_PathBounds.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.PathBounds%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L477">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_PathBounds_" data-uid="PathCreation.BezierPath.PathBounds*"></a>
+  <h4 id="PathCreation_BezierPath_PathBounds" data-uid="PathCreation.BezierPath.PathBounds">PathBounds</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Bounds PathBounds { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Bounds</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_Space.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.Space%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L165">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_Space_" data-uid="PathCreation.BezierPath.Space*"></a>
+  <h4 id="PathCreation_BezierPath_Space" data-uid="PathCreation.BezierPath.Space">Space</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PathSpace Space { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="PathCreation.PathSpace.html">PathSpace</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_AddSegmentToEnd_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.AddSegmentToEnd(UnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L228">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_AddSegmentToEnd_" data-uid="PathCreation.BezierPath.AddSegmentToEnd*"></a>
+  <h4 id="PathCreation_BezierPath_AddSegmentToEnd_UnityEngine_Vector3_" data-uid="PathCreation.BezierPath.AddSegmentToEnd(UnityEngine.Vector3)">AddSegmentToEnd(Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddSegmentToEnd(Vector3 anchorPos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">anchorPos</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_AddSegmentToStart_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.AddSegmentToStart(UnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L257">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_AddSegmentToStart_" data-uid="PathCreation.BezierPath.AddSegmentToStart*"></a>
+  <h4 id="PathCreation_BezierPath_AddSegmentToStart_UnityEngine_Vector3_" data-uid="PathCreation.BezierPath.AddSegmentToStart(UnityEngine.Vector3)">AddSegmentToStart(Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddSegmentToStart(Vector3 anchorPos)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">anchorPos</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_CalculateBoundsWithTransform_UnityEngine_Transform_.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.CalculateBoundsWithTransform(UnityEngine.Transform)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L405">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_CalculateBoundsWithTransform_" data-uid="PathCreation.BezierPath.CalculateBoundsWithTransform*"></a>
+  <h4 id="PathCreation_BezierPath_CalculateBoundsWithTransform_UnityEngine_Transform_" data-uid="PathCreation.BezierPath.CalculateBoundsWithTransform(UnityEngine.Transform)">CalculateBoundsWithTransform(Transform)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Bounds CalculateBoundsWithTransform(Transform transform)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Bounds</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_DeleteSegment_System_Int32_.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.DeleteSegment(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L318">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_DeleteSegment_" data-uid="PathCreation.BezierPath.DeleteSegment*"></a>
+  <h4 id="PathCreation_BezierPath_DeleteSegment_System_Int32_" data-uid="PathCreation.BezierPath.DeleteSegment(System.Int32)">DeleteSegment(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteSegment(int anchorIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">anchorIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_GetAnchorNormalAngle_System_Int32_.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.GetAnchorNormalAngle(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L454">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_GetAnchorNormalAngle_" data-uid="PathCreation.BezierPath.GetAnchorNormalAngle*"></a>
+  <h4 id="PathCreation_BezierPath_GetAnchorNormalAngle_System_Int32_" data-uid="PathCreation.BezierPath.GetAnchorNormalAngle(System.Int32)">GetAnchorNormalAngle(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetAnchorNormalAngle(int anchorIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">anchorIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_GetPoint_System_Int32_.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.GetPoint(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L130">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_GetPoint_" data-uid="PathCreation.BezierPath.GetPoint*"></a>
+  <h4 id="PathCreation_BezierPath_GetPoint_System_Int32_" data-uid="PathCreation.BezierPath.GetPoint(System.Int32)">GetPoint(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetPoint(int i)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">i</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_GetPointsInSegment_System_Int32_.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.GetPointsInSegment(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L343">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_GetPointsInSegment_" data-uid="PathCreation.BezierPath.GetPointsInSegment*"></a>
+  <h4 id="PathCreation_BezierPath_GetPointsInSegment_System_Int32_" data-uid="PathCreation.BezierPath.GetPointsInSegment(System.Int32)">GetPointsInSegment(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3[] GetPointsInSegment(int segmentIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">segmentIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_MovePoint_System_Int32_UnityEngine_Vector3_System_Boolean_.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.MovePoint(System.Int32%2CUnityEngine.Vector3%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L349">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_MovePoint_" data-uid="PathCreation.BezierPath.MovePoint*"></a>
+  <h4 id="PathCreation_BezierPath_MovePoint_System_Int32_UnityEngine_Vector3_System_Boolean_" data-uid="PathCreation.BezierPath.MovePoint(System.Int32,UnityEngine.Vector3,System.Boolean)">MovePoint(Int32, Vector3, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MovePoint(int i, Vector3 pointPos, bool suppressPathModifiedEvent = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">i</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">pointPos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">suppressPathModifiedEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_NotifyPathModified.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.NotifyPathModified%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L668">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_NotifyPathModified_" data-uid="PathCreation.BezierPath.NotifyPathModified*"></a>
+  <h4 id="PathCreation_BezierPath_NotifyPathModified" data-uid="PathCreation.BezierPath.NotifyPathModified">NotifyPathModified()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NotifyPathModified()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_ResetNormalAngles.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.ResetNormalAngles%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L468">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_ResetNormalAngles_" data-uid="PathCreation.BezierPath.ResetNormalAngles*"></a>
+  <h4 id="PathCreation_BezierPath_ResetNormalAngles" data-uid="PathCreation.BezierPath.ResetNormalAngles">ResetNormalAngles()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetNormalAngles()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_SetAnchorNormalAngle_System_Int32_System_Single_.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.SetAnchorNormalAngle(System.Int32%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L459">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_SetAnchorNormalAngle_" data-uid="PathCreation.BezierPath.SetAnchorNormalAngle*"></a>
+  <h4 id="PathCreation_BezierPath_SetAnchorNormalAngle_System_Int32_System_Single_" data-uid="PathCreation.BezierPath.SetAnchorNormalAngle(System.Int32,System.Single)">SetAnchorNormalAngle(Int32, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAnchorNormalAngle(int anchorIndex, float angle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">anchorIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">angle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_SetPoint_System_Int32_UnityEngine_Vector3_System_Boolean_.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.SetPoint(System.Int32%2CUnityEngine.Vector3%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L135">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_SetPoint_" data-uid="PathCreation.BezierPath.SetPoint*"></a>
+  <h4 id="PathCreation_BezierPath_SetPoint_System_Int32_UnityEngine_Vector3_System_Boolean_" data-uid="PathCreation.BezierPath.SetPoint(System.Int32,UnityEngine.Vector3,System.Boolean)">SetPoint(Int32, Vector3, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPoint(int i, Vector3 localPosition, bool suppressPathModifiedEvent = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">i</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">localPosition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">suppressPathModifiedEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_SplitSegment_UnityEngine_Vector3_System_Int32_System_Single_.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.SplitSegment(UnityEngine.Vector3%2CSystem.Int32%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L284">View Source</a>
+  </span>
+  <a id="PathCreation_BezierPath_SplitSegment_" data-uid="PathCreation.BezierPath.SplitSegment*"></a>
+  <h4 id="PathCreation_BezierPath_SplitSegment_UnityEngine_Vector3_System_Int32_System_Single_" data-uid="PathCreation.BezierPath.SplitSegment(UnityEngine.Vector3,System.Int32,System.Single)">SplitSegment(Vector3, Int32, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SplitSegment(Vector3 anchorPos, int segmentIndex, float splitTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">anchorPos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">segmentIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">splitTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath_OnModified.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath.OnModified%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L19">View Source</a>
+  </span>
+  <h4 id="PathCreation_BezierPath_OnModified" data-uid="PathCreation.BezierPath.OnModified">OnModified</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnModified</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=PathCreation_BezierPath.md&amp;value=---%0Auid%3A%20PathCreation.BezierPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/PathCreator/Core/Runtime/Objects/BezierPath.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

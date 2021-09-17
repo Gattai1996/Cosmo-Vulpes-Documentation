@@ -1,0 +1,868 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FImp_ColliderData_Box
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FImp_ColliderData_Box
+   ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="FIMSpace.FImp_ColliderData_Box">
+  
+  
+  <h1 id="FIMSpace_FImp_ColliderData_Box" data-uid="FIMSpace.FImp_ColliderData_Box" class="text-break">Class FImp_ColliderData_Box
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="FIMSpace.FImp_ColliderData_Base.html">FImp_ColliderData_Base</a></div>
+    <div class="level2"><span class="xref">FImp_ColliderData_Box</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="FIMSpace.FImp_ColliderData_Base.html#FIMSpace_FImp_ColliderData_Base_Collider">FImp_ColliderData_Base.Collider</a>
+    </div>
+    <div>
+      <a class="xref" href="FIMSpace.FImp_ColliderData_Base.html#FIMSpace_FImp_ColliderData_Base_IsStatic">FImp_ColliderData_Base.IsStatic</a>
+    </div>
+    <div>
+      <a class="xref" href="FIMSpace.FImp_ColliderData_Base.html#FIMSpace_FImp_ColliderData_Base_ColliderType">FImp_ColliderData_Base.ColliderType</a>
+    </div>
+    <div>
+      <a class="xref" href="FIMSpace.FImp_ColliderData_Base.html#FIMSpace_FImp_ColliderData_Base_previousPosition">FImp_ColliderData_Base.previousPosition</a>
+    </div>
+    <div>
+      <a class="xref" href="FIMSpace.FImp_ColliderData_Base.html#FIMSpace_FImp_ColliderData_Base_previousRotation">FImp_ColliderData_Base.previousRotation</a>
+    </div>
+    <div>
+      <a class="xref" href="FIMSpace.FImp_ColliderData_Base.html#FIMSpace_FImp_ColliderData_Base_previousScale">FImp_ColliderData_Base.previousScale</a>
+    </div>
+    <div>
+      <a class="xref" href="FIMSpace.FImp_ColliderData_Base.html#FIMSpace_FImp_ColliderData_Base_GetColliderDataFor_UnityEngine_Collider_">FImp_ColliderData_Base.GetColliderDataFor(Collider)</a>
+    </div>
+    <div>
+      <a class="xref" href="FIMSpace.FImp_ColliderData_Base.html#FIMSpace_FImp_ColliderData_Base_VIsSame_UnityEngine_Vector3_UnityEngine_Vector3_">FImp_ColliderData_Base.VIsSame(Vector3, Vector3)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="FIMSpace.html">FIMSpace</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="FIMSpace_FImp_ColliderData_Box_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FImp_ColliderData_Box : FImp_ColliderData_Base</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FImp_ColliderData_Box__ctor_UnityEngine_BoxCollider_.md&amp;value=---%0Auid%3A%20FIMSpace.FImp_ColliderData_Box.%23ctor(UnityEngine.BoxCollider)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Physics/FImp_ColliderData_Box.cs/#L21">View Source</a>
+  </span>
+  <a id="FIMSpace_FImp_ColliderData_Box__ctor_" data-uid="FIMSpace.FImp_ColliderData_Box.#ctor*"></a>
+  <h4 id="FIMSpace_FImp_ColliderData_Box__ctor_UnityEngine_BoxCollider_" data-uid="FIMSpace.FImp_ColliderData_Box.#ctor(UnityEngine.BoxCollider)">FImp_ColliderData_Box(BoxCollider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FImp_ColliderData_Box(BoxCollider collider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.BoxCollider</span></td>
+        <td><span class="parametername">collider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FImp_ColliderData_Box_Box.md&amp;value=---%0Auid%3A%20FIMSpace.FImp_ColliderData_Box.Box%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Physics/FImp_ColliderData_Box.cs/#L7">View Source</a>
+  </span>
+  <a id="FIMSpace_FImp_ColliderData_Box_Box_" data-uid="FIMSpace.FImp_ColliderData_Box.Box*"></a>
+  <h4 id="FIMSpace_FImp_ColliderData_Box_Box" data-uid="FIMSpace.FImp_ColliderData_Box.Box">Box</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BoxCollider Box { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.BoxCollider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FImp_ColliderData_Box_GetBoxAverageScale_UnityEngine_BoxCollider_.md&amp;value=---%0Auid%3A%20FIMSpace.FImp_ColliderData_Box.GetBoxAverageScale(UnityEngine.BoxCollider)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Physics/FImp_ColliderData_Box.cs/#L411">View Source</a>
+  </span>
+  <a id="FIMSpace_FImp_ColliderData_Box_GetBoxAverageScale_" data-uid="FIMSpace.FImp_ColliderData_Box.GetBoxAverageScale*"></a>
+  <h4 id="FIMSpace_FImp_ColliderData_Box_GetBoxAverageScale_UnityEngine_BoxCollider_" data-uid="FIMSpace.FImp_ColliderData_Box.GetBoxAverageScale(UnityEngine.BoxCollider)">GetBoxAverageScale(BoxCollider)</h4>
+  <div class="markdown level1 summary"><p>Getting average scale of box&apos;s dimensions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static float GetBoxAverageScale(BoxCollider box)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.BoxCollider</span></td>
+        <td><span class="parametername">box</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FImp_ColliderData_Box_GetBoxCenter_UnityEngine_BoxCollider_.md&amp;value=---%0Auid%3A%20FIMSpace.FImp_ColliderData_Box.GetBoxCenter(UnityEngine.BoxCollider)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Physics/FImp_ColliderData_Box.cs/#L418">View Source</a>
+  </span>
+  <a id="FIMSpace_FImp_ColliderData_Box_GetBoxCenter_" data-uid="FIMSpace.FImp_ColliderData_Box.GetBoxCenter*"></a>
+  <h4 id="FIMSpace_FImp_ColliderData_Box_GetBoxCenter_UnityEngine_BoxCollider_" data-uid="FIMSpace.FImp_ColliderData_Box.GetBoxCenter(UnityEngine.BoxCollider)">GetBoxCenter(BoxCollider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static Vector3 GetBoxCenter(BoxCollider box)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.BoxCollider</span></td>
+        <td><span class="parametername">box</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FImp_ColliderData_Box_GetIntersectOnBoxFromInside_UnityEngine_BoxCollider_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20FIMSpace.FImp_ColliderData_Box.GetIntersectOnBoxFromInside(UnityEngine.BoxCollider%2CUnityEngine.Vector3%2CUnityEngine.Vector3%2CUnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Physics/FImp_ColliderData_Box.cs/#L474">View Source</a>
+  </span>
+  <a id="FIMSpace_FImp_ColliderData_Box_GetIntersectOnBoxFromInside_" data-uid="FIMSpace.FImp_ColliderData_Box.GetIntersectOnBoxFromInside*"></a>
+  <h4 id="FIMSpace_FImp_ColliderData_Box_GetIntersectOnBoxFromInside_UnityEngine_BoxCollider_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="FIMSpace.FImp_ColliderData_Box.GetIntersectOnBoxFromInside(UnityEngine.BoxCollider,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">GetIntersectOnBoxFromInside(BoxCollider, Vector3, Vector3, Vector3)</h4>
+  <div class="markdown level1 summary"><p>Calculating cheap ray on box plane to detect position from inside</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static Vector3 GetIntersectOnBoxFromInside(BoxCollider boxCollider, Vector3 from, Vector3 to, Vector3 planeNormal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.BoxCollider</span></td>
+        <td><span class="parametername">boxCollider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">from</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">planeNormal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FImp_ColliderData_Box_GetNearestPointOnBox_UnityEngine_BoxCollider_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20FIMSpace.FImp_ColliderData_Box.GetNearestPointOnBox(UnityEngine.BoxCollider%2CUnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Physics/FImp_ColliderData_Box.cs/#L334">View Source</a>
+  </span>
+  <a id="FIMSpace_FImp_ColliderData_Box_GetNearestPointOnBox_" data-uid="FIMSpace.FImp_ColliderData_Box.GetNearestPointOnBox*"></a>
+  <h4 id="FIMSpace_FImp_ColliderData_Box_GetNearestPointOnBox_UnityEngine_BoxCollider_UnityEngine_Vector3_" data-uid="FIMSpace.FImp_ColliderData_Box.GetNearestPointOnBox(UnityEngine.BoxCollider,UnityEngine.Vector3)">GetNearestPointOnBox(BoxCollider, Vector3)</h4>
+  <div class="markdown level1 summary"><p>Getting nearest plane point on box collider</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 GetNearestPointOnBox(BoxCollider boxCollider, Vector3 point)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.BoxCollider</span></td>
+        <td><span class="parametername">boxCollider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FImp_ColliderData_Box_GetTargetPlaneNormal_UnityEngine_BoxCollider_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20FIMSpace.FImp_ColliderData_Box.GetTargetPlaneNormal(UnityEngine.BoxCollider%2CUnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Physics/FImp_ColliderData_Box.cs/#L423">View Source</a>
+  </span>
+  <a id="FIMSpace_FImp_ColliderData_Box_GetTargetPlaneNormal_" data-uid="FIMSpace.FImp_ColliderData_Box.GetTargetPlaneNormal*"></a>
+  <h4 id="FIMSpace_FImp_ColliderData_Box_GetTargetPlaneNormal_UnityEngine_BoxCollider_UnityEngine_Vector3_" data-uid="FIMSpace.FImp_ColliderData_Box.GetTargetPlaneNormal(UnityEngine.BoxCollider,UnityEngine.Vector3)">GetTargetPlaneNormal(BoxCollider, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static Vector3 GetTargetPlaneNormal(BoxCollider boxCollider, Vector3 point)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.BoxCollider</span></td>
+        <td><span class="parametername">boxCollider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FImp_ColliderData_Box_GetTargetPlaneNormal_UnityEngine_BoxCollider_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20FIMSpace.FImp_ColliderData_Box.GetTargetPlaneNormal(UnityEngine.BoxCollider%2CUnityEngine.Vector3%2CUnityEngine.Vector3%2CUnityEngine.Vector3%2CUnityEngine.Vector3%2CUnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Physics/FImp_ColliderData_Box.cs/#L438">View Source</a>
+  </span>
+  <a id="FIMSpace_FImp_ColliderData_Box_GetTargetPlaneNormal_" data-uid="FIMSpace.FImp_ColliderData_Box.GetTargetPlaneNormal*"></a>
+  <h4 id="FIMSpace_FImp_ColliderData_Box_GetTargetPlaneNormal_UnityEngine_BoxCollider_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="FIMSpace.FImp_ColliderData_Box.GetTargetPlaneNormal(UnityEngine.BoxCollider,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">GetTargetPlaneNormal(BoxCollider, Vector3, Vector3, Vector3, Vector3, Vector3)</h4>
+  <div class="markdown level1 summary"><p>Getting nearest plane normal fitting to given point position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static Vector3 GetTargetPlaneNormal(BoxCollider boxCollider, Vector3 point, Vector3 right, Vector3 up, Vector3 forward, Vector3 scales)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.BoxCollider</span></td>
+        <td><span class="parametername">boxCollider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">up</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">forward</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">scales</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FImp_ColliderData_Box_IsInsideBoxCollider_UnityEngine_BoxCollider_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20FIMSpace.FImp_ColliderData_Box.IsInsideBoxCollider(UnityEngine.BoxCollider%2CUnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Physics/FImp_ColliderData_Box.cs/#L397">View Source</a>
+  </span>
+  <a id="FIMSpace_FImp_ColliderData_Box_IsInsideBoxCollider_" data-uid="FIMSpace.FImp_ColliderData_Box.IsInsideBoxCollider*"></a>
+  <h4 id="FIMSpace_FImp_ColliderData_Box_IsInsideBoxCollider_UnityEngine_BoxCollider_UnityEngine_Vector3_" data-uid="FIMSpace.FImp_ColliderData_Box.IsInsideBoxCollider(UnityEngine.BoxCollider,UnityEngine.Vector3)">IsInsideBoxCollider(BoxCollider, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInsideBoxCollider(BoxCollider collider, Vector3 point)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.BoxCollider</span></td>
+        <td><span class="parametername">collider</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FImp_ColliderData_Box_PushIfInside_UnityEngine_Vector3__System_Single_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20FIMSpace.FImp_ColliderData_Box.PushIfInside(UnityEngine.Vector3%40%2CSystem.Single%2CUnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Physics/FImp_ColliderData_Box.cs/#L63">View Source</a>
+  </span>
+  <a id="FIMSpace_FImp_ColliderData_Box_PushIfInside_" data-uid="FIMSpace.FImp_ColliderData_Box.PushIfInside*"></a>
+  <h4 id="FIMSpace_FImp_ColliderData_Box_PushIfInside_UnityEngine_Vector3__System_Single_UnityEngine_Vector3_" data-uid="FIMSpace.FImp_ColliderData_Box.PushIfInside(UnityEngine.Vector3@,System.Single,UnityEngine.Vector3)">PushIfInside(ref Vector3, Single, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool PushIfInside(ref Vector3 segmentPosition, float segmentRadius, Vector3 segmentOffset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">segmentPosition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">segmentRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">segmentOffset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="FIMSpace.FImp_ColliderData_Base.html#FIMSpace_FImp_ColliderData_Base_PushIfInside_UnityEngine_Vector3__System_Single_UnityEngine_Vector3_">FImp_ColliderData_Base.PushIfInside(ref Vector3, Single, Vector3)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FImp_ColliderData_Box_PushOutFromBoxCollider_UnityEngine_BoxCollider_System_Single_UnityEngine_Vector3__.md&amp;value=---%0Auid%3A%20FIMSpace.FImp_ColliderData_Box.PushOutFromBoxCollider(UnityEngine.BoxCollider%2CSystem.Single%2CUnityEngine.Vector3%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Physics/FImp_ColliderData_Box.cs/#L140">View Source</a>
+  </span>
+  <a id="FIMSpace_FImp_ColliderData_Box_PushOutFromBoxCollider_" data-uid="FIMSpace.FImp_ColliderData_Box.PushOutFromBoxCollider*"></a>
+  <h4 id="FIMSpace_FImp_ColliderData_Box_PushOutFromBoxCollider_UnityEngine_BoxCollider_System_Single_UnityEngine_Vector3__" data-uid="FIMSpace.FImp_ColliderData_Box.PushOutFromBoxCollider(UnityEngine.BoxCollider,System.Single,UnityEngine.Vector3@)">PushOutFromBoxCollider(BoxCollider, Single, ref Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PushOutFromBoxCollider(BoxCollider box, float segmentColliderRadius, ref Vector3 segmentPosition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.BoxCollider</span></td>
+        <td><span class="parametername">box</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">segmentColliderRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">segmentPosition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FImp_ColliderData_Box_PushOutFromBoxCollider_UnityEngine_BoxCollider_UnityEngine_Collision_System_Single_UnityEngine_Vector3__.md&amp;value=---%0Auid%3A%20FIMSpace.FImp_ColliderData_Box.PushOutFromBoxCollider(UnityEngine.BoxCollider%2CUnityEngine.Collision%2CSystem.Single%2CUnityEngine.Vector3%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Physics/FImp_ColliderData_Box.cs/#L128">View Source</a>
+  </span>
+  <a id="FIMSpace_FImp_ColliderData_Box_PushOutFromBoxCollider_" data-uid="FIMSpace.FImp_ColliderData_Box.PushOutFromBoxCollider*"></a>
+  <h4 id="FIMSpace_FImp_ColliderData_Box_PushOutFromBoxCollider_UnityEngine_BoxCollider_UnityEngine_Collision_System_Single_UnityEngine_Vector3__" data-uid="FIMSpace.FImp_ColliderData_Box.PushOutFromBoxCollider(UnityEngine.BoxCollider,UnityEngine.Collision,System.Single,UnityEngine.Vector3@)">PushOutFromBoxCollider(BoxCollider, Collision, Single, ref Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PushOutFromBoxCollider(BoxCollider box, Collision collision, float segmentColliderRadius, ref Vector3 segmentPosition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.BoxCollider</span></td>
+        <td><span class="parametername">box</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Collision</span></td>
+        <td><span class="parametername">collision</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">segmentColliderRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">segmentPosition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FImp_ColliderData_Box_PushOutFromBoxCollider_UnityEngine_BoxCollider_UnityEngine_Collision_System_Single_UnityEngine_Vector3__UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20FIMSpace.FImp_ColliderData_Box.PushOutFromBoxCollider(UnityEngine.BoxCollider%2CUnityEngine.Collision%2CSystem.Single%2CUnityEngine.Vector3%40%2CUnityEngine.Vector3%2CUnityEngine.Vector3%2CUnityEngine.Vector3%2CUnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Physics/FImp_ColliderData_Box.cs/#L211">View Source</a>
+  </span>
+  <a id="FIMSpace_FImp_ColliderData_Box_PushOutFromBoxCollider_" data-uid="FIMSpace.FImp_ColliderData_Box.PushOutFromBoxCollider*"></a>
+  <h4 id="FIMSpace_FImp_ColliderData_Box_PushOutFromBoxCollider_UnityEngine_BoxCollider_UnityEngine_Collision_System_Single_UnityEngine_Vector3__UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="FIMSpace.FImp_ColliderData_Box.PushOutFromBoxCollider(UnityEngine.BoxCollider,UnityEngine.Collision,System.Single,UnityEngine.Vector3@,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">PushOutFromBoxCollider(BoxCollider, Collision, Single, ref Vector3, Vector3, Vector3, Vector3, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PushOutFromBoxCollider(BoxCollider box, Collision collision, float segmentColliderRadius, ref Vector3 pos, Vector3 right, Vector3 up, Vector3 forward, Vector3 scales)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.BoxCollider</span></td>
+        <td><span class="parametername">box</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Collision</span></td>
+        <td><span class="parametername">collision</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">segmentColliderRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">pos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">up</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">forward</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">scales</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FImp_ColliderData_Box_RefreshColliderData.md&amp;value=---%0Auid%3A%20FIMSpace.FImp_ColliderData_Box.RefreshColliderData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Physics/FImp_ColliderData_Box.cs/#L30">View Source</a>
+  </span>
+  <a id="FIMSpace_FImp_ColliderData_Box_RefreshColliderData_" data-uid="FIMSpace.FImp_ColliderData_Box.RefreshColliderData*"></a>
+  <h4 id="FIMSpace_FImp_ColliderData_Box_RefreshColliderData" data-uid="FIMSpace.FImp_ColliderData_Box.RefreshColliderData">RefreshColliderData()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void RefreshColliderData()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="FIMSpace.FImp_ColliderData_Base.html#FIMSpace_FImp_ColliderData_Base_RefreshColliderData">FImp_ColliderData_Base.RefreshColliderData()</a></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FImp_ColliderData_Box.md&amp;value=---%0Auid%3A%20FIMSpace.FImp_ColliderData_Box%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Shared Tools/Physics/FImp_ColliderData_Box.cs/#L5" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

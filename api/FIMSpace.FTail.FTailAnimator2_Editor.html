@@ -1,0 +1,3099 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FTailAnimator2_Editor
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FTailAnimator2_Editor
+   ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="FIMSpace.FTail.FTailAnimator2_Editor">
+  
+  
+  <h1 id="FIMSpace_FTail_FTailAnimator2_Editor" data-uid="FIMSpace.FTail.FTailAnimator2_Editor" class="text-break">Class FTailAnimator2_Editor
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.ScriptableObject</span></div>
+    <div class="level3"><span class="xref">UnityEditor.Editor</span></div>
+    <div class="level4"><span class="xref">FTailAnimator2_Editor</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEditor.Editor.CreateEditorWithContext(UnityEngine.Object[], UnityEngine.Object, System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.CreateEditorWithContext(UnityEngine.Object[], UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.CreateCachedEditorWithContext(UnityEngine.Object, UnityEngine.Object, System.Type, UnityEditor.Editor)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.CreateCachedEditorWithContext(UnityEngine.Object[], UnityEngine.Object, System.Type, UnityEditor.Editor)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.CreateCachedEditor(UnityEngine.Object, System.Type, UnityEditor.Editor)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.CreateCachedEditor(UnityEngine.Object[], System.Type, UnityEditor.Editor)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.CreateEditor(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.CreateEditor(UnityEngine.Object, System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.CreateEditor(UnityEngine.Object[])</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.CreateEditor(UnityEngine.Object[], System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.DrawPropertiesExcluding(UnityEditor.SerializedObject, System.String[])</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.DrawDefaultInspector()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.Repaint()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.CreateInspectorGUI()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.RequiresConstantRepaint()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.DrawHeader()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.OnHeaderGUI()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.ShouldHideOpenButton()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.DrawFoldoutInspector(UnityEngine.Object, UnityEditor.Editor)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.HasPreviewGUI()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.GetPreviewTitle()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.RenderStaticPreview(System.String, UnityEngine.Object[], System.Int32, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.OnPreviewGUI(UnityEngine.Rect, UnityEngine.GUIStyle)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.OnInteractivePreviewGUI(UnityEngine.Rect, UnityEngine.GUIStyle)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.OnPreviewSettings()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.GetInfoString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.DrawPreview(UnityEngine.Rect)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.ReloadPreviewInstances()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.UseDefaultMargins()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.Initialize(UnityEngine.Object[])</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.MoveNextTarget()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.ResetTarget()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.target</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.targets</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.serializedObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Editor.finishedDefaultHeaderGUI</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.SetDirty()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="FIMSpace.FTail.html">FIMSpace.FTail</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp-Editor.dll</h6>
+  <h5 id="FIMSpace_FTail_FTailAnimator2_Editor_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[CustomEditor(typeof(TailAnimator2))]
+[CanEditMultipleObjects]
+public class FTailAnimator2_Editor : Editor, IPreviewable, IToolModeOwner</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_hideSkin.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.hideSkin%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Elements.cs/#L105">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_hideSkin" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.hideSkin">hideSkin</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool hideSkin</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_skins.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.skins%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Helpers.cs/#L46">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_skins" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.skins">skins</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;SkinnedMeshRenderer&gt; skins</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.SkinnedMeshRenderer</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_altWave.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_altWave%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L74">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_altWave" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_altWave">sp_altWave</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_altWave</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_AngleLimit.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_AngleLimit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L59">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_AngleLimit" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_AngleLimit">sp_AngleLimit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_AngleLimit</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_AngleLimitAxis.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_AngleLimitAxis%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L61">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_AngleLimitAxis" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_AngleLimitAxis">sp_AngleLimitAxis</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_AngleLimitAxis</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_AnimatePhysics.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_AnimatePhysics%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L75">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_AnimatePhysics" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_AnimatePhysics">sp_AnimatePhysics</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_AnimatePhysics</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_Axis2D.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_Axis2D%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L36">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_Axis2D" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_Axis2D">sp_Axis2D</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_Axis2D</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_BlendCurve.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_BlendCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L102">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_BlendCurve" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_BlendCurve">sp_BlendCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_BlendCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_Boost.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_Boost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L26">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_Boost" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_Boost">sp_Boost</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_Boost</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_colAddRigs.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_colAddRigs%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L50">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_colAddRigs" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_colAddRigs">sp_colAddRigs</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_colAddRigs</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_colBoxDim.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_colBoxDim%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L44">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_colBoxDim" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_colBoxDim">sp_colBoxDim</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_colBoxDim</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_colCustomLayer.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_colCustomLayer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L49">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_colCustomLayer" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_colCustomLayer">sp_colCustomLayer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_colCustomLayer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_colDiffFact.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_colDiffFact%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L45">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_colDiffFact" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_colDiffFact">sp_colDiffFact</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_colDiffFact</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_colIgnored.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_colIgnored%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L47">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_colIgnored" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_colIgnored">sp_colIgnored</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_colIgnored</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_CollidersType.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_CollidersType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L64">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_CollidersType" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_CollidersType">sp_CollidersType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_CollidersType</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_CollideWithDisabledColliders.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_CollideWithDisabledColliders%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L100">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_CollideWithDisabledColliders" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_CollideWithDisabledColliders">sp_CollideWithDisabledColliders</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_CollideWithDisabledColliders</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_CollisionSlippery.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_CollisionSlippery%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L77">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_CollisionSlippery" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_CollisionSlippery">sp_CollisionSlippery</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_CollisionSlippery</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_CollisionSpace.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_CollisionSpace%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L53">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_CollisionSpace" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_CollisionSpace">sp_CollisionSpace</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_CollisionSpace</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_colSameLayer.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_colSameLayer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L48">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_colSameLayer" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_colSameLayer">sp_colSameLayer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_colSameLayer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_colScale.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_colScale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L42">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_colScale" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_colScale">sp_colScale</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_colScale</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_colScaleMul.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_colScaleMul%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L43">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_colScaleMul" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_colScaleMul">sp_colScaleMul</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_colScaleMul</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_colWithOther.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_colWithOther%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L46">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_colWithOther" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_colWithOther">sp_colWithOther</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_colWithOther</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_cosAd.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_cosAd%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L69">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_cosAd" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_cosAd">sp_cosAd</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_cosAd</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_Curling.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_Curling%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L96">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_Curling" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_Curling">sp_Curling</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_Curling</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_CurlingCurve.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_CurlingCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L97">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_CurlingCurve" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_CurlingCurve">sp_CurlingCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_CurlingCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_CurvCurve.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_CurvCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L88">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_CurvCurve" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_CurvCurve">sp_CurvCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_CurvCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_curving.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_curving%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L39">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_curving" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_curving">sp_curving</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_curving</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_DetailedCollision.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_DetailedCollision%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L55">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_DetailedCollision" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_DetailedCollision">sp_DetailedCollision</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_DetailedCollision</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_DetectZeroKeyframes.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_DetectZeroKeyframes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L30">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_DetectZeroKeyframes" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_DetectZeroKeyframes">sp_DetectZeroKeyframes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_DetectZeroKeyframes</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_DynamicWorldCollidersInclusion.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_DynamicWorldCollidersInclusion%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L40">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_DynamicWorldCollidersInclusion" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_DynamicWorldCollidersInclusion">sp_DynamicWorldCollidersInclusion</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_DynamicWorldCollidersInclusion</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_EndBoneJointOffset.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_EndBoneJointOffset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L32">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_EndBoneJointOffset" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_EndBoneJointOffset">sp_EndBoneJointOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_EndBoneJointOffset</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_FixedCycle.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_FixedCycle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L76">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_FixedCycle" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_FixedCycle">sp_FixedCycle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_FixedCycle</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_gravity.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_gravity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L41">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_gravity" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_gravity">sp_gravity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_gravity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_GravityCurve.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_GravityCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L90">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_GravityCurve" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_GravityCurve">sp_GravityCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_GravityCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_IgnoreMeshColliders.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_IgnoreMeshColliders%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L99">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_IgnoreMeshColliders" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_IgnoreMeshColliders">sp_IgnoreMeshColliders</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_IgnoreMeshColliders</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_IncludedColliders.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_IncludedColliders%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L56">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_IncludedColliders" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_IncludedColliders">sp_IncludedColliders</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_IncludedColliders</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_InclusionRadius.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_InclusionRadius%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L91">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_InclusionRadius" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_InclusionRadius">sp_InclusionRadius</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_InclusionRadius</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_LengthMulCurve.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_LengthMulCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L89">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_LengthMulCurve" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_LengthMulCurve">sp_LengthMulCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_LengthMulCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_LengthMultiplier.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_LengthMultiplier%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L34">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_LengthMultiplier" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_LengthMultiplier">sp_LengthMultiplier</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_LengthMultiplier</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_LimitSmoothing.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_LimitSmoothing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L62">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_LimitSmoothing" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_LimitSmoothing">sp_LimitSmoothing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_LimitSmoothing</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_MaxStretching.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_MaxStretching%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L15">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_MaxStretching" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_MaxStretching">sp_MaxStretching</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_MaxStretching</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_MotionInfluence.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_MotionInfluence%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L63">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_MotionInfluence" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_MotionInfluence">sp_MotionInfluence</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_MotionInfluence</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_OptimizeWithMesh.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_OptimizeWithMesh%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L65">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_OptimizeWithMesh" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_OptimizeWithMesh">sp_OptimizeWithMesh</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_OptimizeWithMesh</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_PosCurve.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_PosCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L85">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_PosCurve" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_PosCurve">sp_PosCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_PosCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_ReactSpeed.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_ReactSpeed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L13">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_ReactSpeed" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_ReactSpeed">sp_ReactSpeed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_ReactSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_ReflectCollision.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_ReflectCollision%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L54">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_ReflectCollision" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_ReflectCollision">sp_ReflectCollision</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_ReflectCollision</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_RigidbodyMass.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_RigidbodyMass%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L57">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_RigidbodyMass" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_RigidbodyMass">sp_RigidbodyMass</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_RigidbodyMass</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_RootPositionOffset.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_RootPositionOffset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L52">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_RootPositionOffset" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_RootPositionOffset">sp_RootPositionOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_RootPositionOffset</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_RootRotationOffset.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_RootRotationOffset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L51">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_RootRotationOffset" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_RootRotationOffset">sp_RootRotationOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_RootRotationOffset</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_RotCurve.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_RotCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L86">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_RotCurve" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_RotCurve">sp_RotCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_RotCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_RotRelev.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_RotRelev%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L14">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_RotRelev" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_RotRelev">sp_RotRelev</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_RotRelev</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_SlipperyCurve.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_SlipperyCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L94">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_SlipperyCurve" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_SlipperyCurve">sp_SlipperyCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_SlipperyCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_SlitCurve.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_SlitCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L87">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_SlitCurve" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_SlitCurve">sp_SlitCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_SlitCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_Slithery.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_Slithery%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L18">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_Slithery" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_Slithery">sp_Slithery</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_Slithery</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_smoothdelta.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_smoothdelta%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L37">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_smoothdelta" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_smoothdelta">sp_smoothdelta</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_smoothdelta</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_SmoothingStyle.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_SmoothingStyle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L12">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_SmoothingStyle" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_SmoothingStyle">sp_SmoothingStyle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_SmoothingStyle</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_SpringCurve.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_SpringCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L92">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_SpringCurve" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_SpringCurve">sp_SpringCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_SpringCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_Springiness.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_Springiness%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L16">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_Springiness" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_Springiness">sp_Springiness</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_Springiness</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_SpringinessCurling.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_SpringinessCurling%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L17">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_SpringinessCurling" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_SpringinessCurling">sp_SpringinessCurling</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_SpringinessCurling</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_StartAfterTPose.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_StartAfterTPose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L31">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_StartAfterTPose" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_StartAfterTPose">sp_StartAfterTPose</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_StartAfterTPose</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_StartBone.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_StartBone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L20">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_StartBone" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_StartBone">sp_StartBone</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_StartBone</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_Sustain.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_Sustain%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L21">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_Sustain" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_Sustain">sp_Sustain</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_Sustain</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_SyncWithAnimator.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_SyncWithAnimator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L29">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_SyncWithAnimator" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_SyncWithAnimator">sp_SyncWithAnimator</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_SyncWithAnimator</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_TailAnimatorAmount.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_TailAnimatorAmount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L60">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_TailAnimatorAmount" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_TailAnimatorAmount">sp_TailAnimatorAmount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_TailAnimatorAmount</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_tailRotOff.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_tailRotOff%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L73">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_tailRotOff" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_tailRotOff">sp_tailRotOff</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_tailRotOff</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_Unify.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_Unify%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L35">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_Unify" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_Unify">sp_Unify</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_Unify</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_UpdateAsLast.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_UpdateAsLast%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L28">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_UpdateAsLast" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_UpdateAsLast">sp_UpdateAsLast</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_UpdateAsLast</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_UpdateRate.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_UpdateRate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L19">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_UpdateRate" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_UpdateRate">sp_UpdateRate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_UpdateRate</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_useCollision.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_useCollision%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L38">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_useCollision" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_useCollision">sp_useCollision</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_useCollision</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_UseCurlingCurve.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_UseCurlingCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L98">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_UseCurlingCurve" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_UseCurlingCurve">sp_UseCurlingCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_UseCurlingCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_UseCurvingCurve.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_UseCurvingCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L82">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_UseCurvingCurve" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_UseCurvingCurve">sp_UseCurvingCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_UseCurvingCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_UseGravCurv.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_UseGravCurv%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L84">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_UseGravCurv" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_UseGravCurv">sp_UseGravCurv</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_UseGravCurv</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_UseLengthMulCurve.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_UseLengthMulCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L83">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_UseLengthMulCurve" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_UseLengthMulCurve">sp_UseLengthMulCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_UseLengthMulCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_UsePosSpeedCurve.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_UsePosSpeedCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L79">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_UsePosSpeedCurve" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_UsePosSpeedCurve">sp_UsePosSpeedCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_UsePosSpeedCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_UseRotSpeedCurve.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_UseRotSpeedCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L80">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_UseRotSpeedCurve" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_UseRotSpeedCurve">sp_UseRotSpeedCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_UseRotSpeedCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_UseSlipperyCurve.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_UseSlipperyCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L95">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_UseSlipperyCurve" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_UseSlipperyCurve">sp_UseSlipperyCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_UseSlipperyCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_UseSlitCurve.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_UseSlitCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L81">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_UseSlitCurve" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_UseSlitCurve">sp_UseSlitCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_UseSlitCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_UseSpringCurve.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_UseSpringCurve%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L93">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_UseSpringCurve" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_UseSpringCurve">sp_UseSpringCurve</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_UseSpringCurve</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_useWav.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_useWav%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L68">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_useWav" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_useWav">sp_useWav</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_useWav</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_UseWind.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_UseWind%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L22">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_UseWind" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_UseWind">sp_UseWind</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_UseWind</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_wavAx.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_wavAx%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L72">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_wavAx" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_wavAx">sp_wavAx</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_wavAx</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_wavRa.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_wavRa%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L71">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_wavRa" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_wavRa">sp_wavRa</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_wavRa</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_wavSp.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_wavSp%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L70">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_wavSp" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_wavSp">sp_wavSp</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_wavSp</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_wavType.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_wavType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L67">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_wavType" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_wavType">sp_wavType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_wavType</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_WindEffectPower.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_WindEffectPower%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L23">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_WindEffectPower" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_WindEffectPower">sp_WindEffectPower</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_WindEffectPower</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_WindTurbulencePower.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_WindTurbulencePower%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L24">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_WindTurbulencePower" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_WindTurbulencePower">sp_WindTurbulencePower</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_WindTurbulencePower</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_sp_WindWorldNoisePower.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.sp_WindWorldNoisePower%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L25">View Source</a>
+  </span>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_sp_WindWorldNoisePower" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.sp_WindWorldNoisePower">sp_WindWorldNoisePower</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SerializedProperty sp_WindWorldNoisePower</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedProperty</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor__TexDeflIcon.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor._TexDeflIcon%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Helpers.cs/#L20">View Source</a>
+  </span>
+  <a id="FIMSpace_FTail_FTailAnimator2_Editor__TexDeflIcon_" data-uid="FIMSpace.FTail.FTailAnimator2_Editor._TexDeflIcon*"></a>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor__TexDeflIcon" data-uid="FIMSpace.FTail.FTailAnimator2_Editor._TexDeflIcon">_TexDeflIcon</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Texture2D _TexDeflIcon { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Texture2D</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor__TexIKIcon.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor._TexIKIcon%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Helpers.cs/#L18">View Source</a>
+  </span>
+  <a id="FIMSpace_FTail_FTailAnimator2_Editor__TexIKIcon_" data-uid="FIMSpace.FTail.FTailAnimator2_Editor._TexIKIcon*"></a>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor__TexIKIcon" data-uid="FIMSpace.FTail.FTailAnimator2_Editor._TexIKIcon">_TexIKIcon</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Texture2D _TexIKIcon { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Texture2D</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor__TexPartialBlendIcon.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor._TexPartialBlendIcon%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Helpers.cs/#L16">View Source</a>
+  </span>
+  <a id="FIMSpace_FTail_FTailAnimator2_Editor__TexPartialBlendIcon_" data-uid="FIMSpace.FTail.FTailAnimator2_Editor._TexPartialBlendIcon*"></a>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor__TexPartialBlendIcon" data-uid="FIMSpace.FTail.FTailAnimator2_Editor._TexPartialBlendIcon">_TexPartialBlendIcon</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Texture2D _TexPartialBlendIcon { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Texture2D</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor__TexTailAnimIcon.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor._TexTailAnimIcon%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Helpers.cs/#L12">View Source</a>
+  </span>
+  <a id="FIMSpace_FTail_FTailAnimator2_Editor__TexTailAnimIcon_" data-uid="FIMSpace.FTail.FTailAnimator2_Editor._TexTailAnimIcon*"></a>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor__TexTailAnimIcon" data-uid="FIMSpace.FTail.FTailAnimator2_Editor._TexTailAnimIcon">_TexTailAnimIcon</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Texture2D _TexTailAnimIcon { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Texture2D</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor__TexWavingIcon.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor._TexWavingIcon%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Helpers.cs/#L14">View Source</a>
+  </span>
+  <a id="FIMSpace_FTail_FTailAnimator2_Editor__TexWavingIcon_" data-uid="FIMSpace.FTail.FTailAnimator2_Editor._TexWavingIcon*"></a>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor__TexWavingIcon" data-uid="FIMSpace.FTail.FTailAnimator2_Editor._TexWavingIcon">_TexWavingIcon</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Texture2D _TexWavingIcon { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Texture2D</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_OnEnable.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.OnEnable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Variables.cs/#L144">View Source</a>
+  </span>
+  <a id="FIMSpace_FTail_FTailAnimator2_Editor_OnEnable_" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.OnEnable*"></a>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_OnEnable" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.OnEnable">OnEnable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnEnable()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_OnInspectorGUI.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.OnInspectorGUI%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.cs/#L12">View Source</a>
+  </span>
+  <a id="FIMSpace_FTail_FTailAnimator2_Editor_OnInspectorGUI_" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.OnInspectorGUI*"></a>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_OnInspectorGUI" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.OnInspectorGUI">OnInspectorGUI()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnInspectorGUI()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEditor.Editor.OnInspectorGUI()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor_OnSceneGUI.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor.OnSceneGUI%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.SceneGUI.cs/#L8">View Source</a>
+  </span>
+  <a id="FIMSpace_FTail_FTailAnimator2_Editor_OnSceneGUI_" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.OnSceneGUI*"></a>
+  <h4 id="FIMSpace_FTail_FTailAnimator2_Editor_OnSceneGUI" data-uid="FIMSpace.FTail.FTailAnimator2_Editor.OnSceneGUI">OnSceneGUI()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnSceneGUI()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=FIMSpace_FTail_FTailAnimator2_Editor.md&amp;value=---%0Auid%3A%20FIMSpace.FTail.FTailAnimator2_Editor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/FImpossible Creations/Tail Animator/Editor/TailAnimator.Editor.Elements.cs/#L7" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

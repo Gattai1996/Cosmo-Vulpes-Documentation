@@ -1,0 +1,2708 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class HBAO
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class HBAO
+   ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO">
+  
+  
+  <h1 id="HorizonBasedAmbientOcclusion_Universal_HBAO" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO" class="text-break">Class HBAO
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.ScriptableObject</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Rendering.VolumeComponent</span></div>
+    <div class="level4"><span class="xref">HBAO</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">UnityEngine.Rendering.Universal.IPostProcessComponent</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEngine.Rendering.VolumeComponent.active</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Rendering.VolumeComponent.OnEnable()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Rendering.VolumeComponent.OnDisable()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Rendering.VolumeComponent.Override(UnityEngine.Rendering.VolumeComponent, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Rendering.VolumeComponent.SetAllOverridesTo(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Rendering.VolumeComponent.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Rendering.VolumeComponent.OnDestroy()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Rendering.VolumeComponent.Release()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Rendering.VolumeComponent.displayName</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Rendering.VolumeComponent.parameters</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.SetDirty()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="HorizonBasedAmbientOcclusion.Universal.html">HorizonBasedAmbientOcclusion.Universal</a></h6>
+  <h6><strong>Assembly</strong>: HBAO.Universal.Runtime.dll</h6>
+  <h5 id="HorizonBasedAmbientOcclusion_Universal_HBAO_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ExecuteInEditMode]
+[VolumeComponentMenu(&quot;Lighting/HBAO&quot;)]
+public class HBAO : VolumeComponent, IPostProcessComponent</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_baseColor.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.baseColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L238">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_baseColor" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.baseColor">baseColor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;This setting allow you to set the base color if the AO, the alpha channel value is unused.&quot;)]
+[Space(10F)]
+public ColorParameter baseColor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Rendering.ColorParameter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_bias.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.bias%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L214">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_bias" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.bias">bias</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;For low-tessellated geometry, occlusion variations tend to appear at creases and ridges, which betray the underlying tessellation. To remove these artifacts, we use an angle bias parameter which restricts the hemisphere.&quot;)]
+public ClampedFloatParameter bias</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Rendering.ClampedFloatParameter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_blurType.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.blurType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L248">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_blurType" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.blurType">blurType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The type of blur to use.&quot;)]
+[HBAO.ParameterDisplayName(&quot;Type&quot;)]
+[Space(6F)]
+public HBAO.BlurTypeParameter blurType</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.BlurTypeParameter.html">HBAO.BlurTypeParameter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_brightnessMask.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.brightnessMask%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L264">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_brightnessMask" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.brightnessMask">brightnessMask</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Use masking on emissive pixels&quot;)]
+public ClampedFloatParameter brightnessMask</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Rendering.ClampedFloatParameter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_brightnessMaskRange.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.brightnessMaskRange%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L267">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_brightnessMaskRange" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.brightnessMaskRange">brightnessMaskRange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Brightness level where masking starts/ends&quot;)]
+public HBAO.MinMaxFloatParameter brightnessMaskRange</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.MinMaxFloatParameter.html">HBAO.MinMaxFloatParameter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_colorBleedingEnabled.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.colorBleedingEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L258">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_colorBleedingEnabled" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.colorBleedingEnabled">colorBleedingEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HBAO.ParameterDisplayName(&quot;Enabled&quot;)]
+[Space(6F)]
+public BoolParameter colorBleedingEnabled</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Rendering.BoolParameter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_debugMode.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.debugMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L201">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_debugMode" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.debugMode">debugMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The debug mode actually displayed on screen.&quot;)]
+[Space(10F)]
+public HBAO.DebugModeParameter debugMode</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.DebugModeParameter.html">HBAO.DebugModeParameter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_deinterleaving.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.deinterleaving%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L192">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_deinterleaving" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.deinterleaving">deinterleaving</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The deinterleaving factor.&quot;)]
+public HBAO.DeinterleavingParameter deinterleaving</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.DeinterleavingParameter.html">HBAO.DeinterleavingParameter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_distanceFalloff.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.distanceFalloff%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L232">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_distanceFalloff" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.distanceFalloff">distanceFalloff</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The distance before max distance at which AO start to decrease.&quot;)]
+public FloatParameter distanceFalloff</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Rendering.FloatParameter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_intensity.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.intensity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L217">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_intensity" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.intensity">intensity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;This value allows to scale up the ambient occlusion values.&quot;)]
+public ClampedFloatParameter intensity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Rendering.ClampedFloatParameter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_maxDistance.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.maxDistance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L229">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_maxDistance" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.maxDistance">maxDistance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The max distance to display AO.&quot;)]
+[Space(10F)]
+public FloatParameter maxDistance</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Rendering.FloatParameter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_maxRadiusPixels.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.maxRadiusPixels%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L209">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_maxRadiusPixels" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.maxRadiusPixels">maxRadiusPixels</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Maximum radius in pixels: this prevents the radius to grow too much with close-up object and impact on performances.&quot;)]
+public ClampedFloatParameter maxRadiusPixels</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Rendering.ClampedFloatParameter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_multiBounceInfluence.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.multiBounceInfluence%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L223">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_multiBounceInfluence" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.multiBounceInfluence">multiBounceInfluence</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;MultiBounce approximation influence.&quot;)]
+public ClampedFloatParameter multiBounceInfluence</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Rendering.ClampedFloatParameter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_noiseType.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.noiseType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L198">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_noiseType" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.noiseType">noiseType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The type of noise to use.&quot;)]
+[Space(10F)]
+public HBAO.NoiseTypeParameter noiseType</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.NoiseTypeParameter.html">HBAO.NoiseTypeParameter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_offscreenSamplesContribution.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.offscreenSamplesContribution%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L226">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_offscreenSamplesContribution" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.offscreenSamplesContribution">offscreenSamplesContribution</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The amount of AO offscreen samples are contributing.&quot;)]
+public ClampedFloatParameter offscreenSamplesContribution</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Rendering.ClampedFloatParameter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_perPixelNormals.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.perPixelNormals%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L235">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_perPixelNormals" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.perPixelNormals">perPixelNormals</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The type of per pixel normals to use.&quot;)]
+[Space(10F)]
+public HBAO.PerPixelNormalsParameter perPixelNormals</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.PerPixelNormalsParameter.html">HBAO.PerPixelNormalsParameter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_preset.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.preset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L185">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_preset" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.preset">preset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HBAO.PresetParameter preset</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.PresetParameter.html">HBAO.PresetParameter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_quality.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.quality%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L189">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_quality" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.quality">quality</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The quality of the AO.&quot;)]
+[Space(6F)]
+public HBAO.QualityParameter quality</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.QualityParameter.html">HBAO.QualityParameter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_radius.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.radius%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L205">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_radius" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.radius">radius</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;AO radius: this is the distance outside which occluders are ignored.&quot;)]
+[Space(6F)]
+public ClampedFloatParameter radius</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Rendering.ClampedFloatParameter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_resolution.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.resolution%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L195">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_resolution" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.resolution">resolution</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The resolution at which the AO is calculated.&quot;)]
+public HBAO.ResolutionParameter resolution</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.ResolutionParameter.html">HBAO.ResolutionParameter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_saturation.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.saturation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L261">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_saturation" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.saturation">saturation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;This value allows to control the saturation of the color bleeding.&quot;)]
+[Space(10F)]
+public ClampedFloatParameter saturation</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Rendering.ClampedFloatParameter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_sharpness.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.sharpness%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L255">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_sharpness" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.sharpness">sharpness</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;This parameter controls the depth-dependent weight of the bilateral filter, to avoid bleeding across edges. A zero sharpness is a pure Gaussian blur. Increasing the blur sharpness removes bleeding by using lower weights for samples with large depth delta from the current pixel.&quot;)]
+[Space(10F)]
+public ClampedFloatParameter sharpness</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Rendering.ClampedFloatParameter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_temporalFilterEnabled.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.temporalFilterEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L241">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_temporalFilterEnabled" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.temporalFilterEnabled">temporalFilterEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[HBAO.ParameterDisplayName(&quot;Enabled&quot;)]
+[Space(6F)]
+public BoolParameter temporalFilterEnabled</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Rendering.BoolParameter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_useMultiBounce.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.useMultiBounce%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L220">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_useMultiBounce" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.useMultiBounce">useMultiBounce</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Enable/disable MultiBounce approximation.&quot;)]
+public BoolParameter useMultiBounce</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Rendering.BoolParameter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_varianceClipping.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.varianceClipping%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L244">View Source</a>
+  </span>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_varianceClipping" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.varianceClipping">varianceClipping</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;The type of variance clipping to use.&quot;)]
+public HBAO.VarianceClippingParameter varianceClipping</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.VarianceClippingParameter.html">HBAO.VarianceClippingParameter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_ApplyPreset_HorizonBasedAmbientOcclusion_Universal_HBAO_Preset_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.ApplyPreset(HorizonBasedAmbientOcclusion.Universal.HBAO.Preset)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L279">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_ApplyPreset_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.ApplyPreset*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_ApplyPreset_HorizonBasedAmbientOcclusion_Universal_HBAO_Preset_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.ApplyPreset(HorizonBasedAmbientOcclusion.Universal.HBAO.Preset)">ApplyPreset(HBAO.Preset)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ApplyPreset(HBAO.Preset preset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.Preset.html">HBAO.Preset</a></td>
+        <td><span class="parametername">preset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_EnableColorBleeding_System_Boolean_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.EnableColorBleeding(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L530">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_EnableColorBleeding_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.EnableColorBleeding*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_EnableColorBleeding_System_Boolean_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.EnableColorBleeding(System.Boolean)">EnableColorBleeding(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnableColorBleeding(bool enabled = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enabled</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_EnableHBAO_System_Boolean_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.EnableHBAO(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L269">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_EnableHBAO_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.EnableHBAO*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_EnableHBAO_System_Boolean_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.EnableHBAO(System.Boolean)">EnableHBAO(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnableHBAO(bool enable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_EnableMultiBounce_System_Boolean_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.EnableMultiBounce(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L470">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_EnableMultiBounce_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.EnableMultiBounce*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_EnableMultiBounce_System_Boolean_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.EnableMultiBounce(System.Boolean)">EnableMultiBounce(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnableMultiBounce(bool enabled = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enabled</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_EnableTemporalFilter_System_Boolean_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.EnableTemporalFilter(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L490">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_EnableTemporalFilter_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.EnableTemporalFilter*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_EnableTemporalFilter_System_Boolean_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.EnableTemporalFilter(System.Boolean)">EnableTemporalFilter(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EnableTemporalFilter(bool enabled = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enabled</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoBias.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoBias%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L395">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoBias_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoBias*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoBias" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoBias">GetAoBias()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetAoBias()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoColor.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L445">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoColor_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoColor*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoColor" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoColor">GetAoColor()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color GetAoColor()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoDistanceFalloff.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoDistanceFalloff%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L425">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoDistanceFalloff_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoDistanceFalloff*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoDistanceFalloff" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoDistanceFalloff">GetAoDistanceFalloff()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetAoDistanceFalloff()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoIntensity.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoIntensity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L455">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoIntensity_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoIntensity*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoIntensity" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoIntensity">GetAoIntensity()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetAoIntensity()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoMaxDistance.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoMaxDistance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L415">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoMaxDistance_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoMaxDistance*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoMaxDistance" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoMaxDistance">GetAoMaxDistance()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetAoMaxDistance()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoMaxRadiusPixels.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoMaxRadiusPixels%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L385">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoMaxRadiusPixels_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoMaxRadiusPixels*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoMaxRadiusPixels" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoMaxRadiusPixels">GetAoMaxRadiusPixels()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetAoMaxRadiusPixels()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoMultiBounceInfluence.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoMultiBounceInfluence%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L475">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoMultiBounceInfluence_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoMultiBounceInfluence*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoMultiBounceInfluence" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoMultiBounceInfluence">GetAoMultiBounceInfluence()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetAoMultiBounceInfluence()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoOffscreenSamplesContribution.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoOffscreenSamplesContribution%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L405">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoOffscreenSamplesContribution_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoOffscreenSamplesContribution*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoOffscreenSamplesContribution" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoOffscreenSamplesContribution">GetAoOffscreenSamplesContribution()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetAoOffscreenSamplesContribution()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoPerPixelNormals.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoPerPixelNormals%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L435">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoPerPixelNormals_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoPerPixelNormals*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoPerPixelNormals" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoPerPixelNormals">GetAoPerPixelNormals()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HBAO.PerPixelNormals GetAoPerPixelNormals()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.PerPixelNormals.html">HBAO.PerPixelNormals</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoRadius.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoRadius%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L375">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoRadius_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoRadius*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetAoRadius" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetAoRadius">GetAoRadius()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetAoRadius()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetBlurSharpness.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetBlurSharpness%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L515">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetBlurSharpness_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetBlurSharpness*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetBlurSharpness" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetBlurSharpness">GetBlurSharpness()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetBlurSharpness()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetBlurType.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetBlurType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L505">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetBlurType_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetBlurType*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetBlurType" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetBlurType">GetBlurType()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HBAO.BlurType GetBlurType()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.BlurType.html">HBAO.BlurType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetColorBleedingBrightnessMask.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetColorBleedingBrightnessMask%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L545">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetColorBleedingBrightnessMask_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetColorBleedingBrightnessMask*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetColorBleedingBrightnessMask" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetColorBleedingBrightnessMask">GetColorBleedingBrightnessMask()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetColorBleedingBrightnessMask()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetColorBleedingBrightnessMaskRange.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetColorBleedingBrightnessMaskRange%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L555">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetColorBleedingBrightnessMaskRange_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetColorBleedingBrightnessMaskRange*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetColorBleedingBrightnessMaskRange" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetColorBleedingBrightnessMaskRange">GetColorBleedingBrightnessMaskRange()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 GetColorBleedingBrightnessMaskRange()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetColorBleedingSaturation.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetColorBleedingSaturation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L535">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetColorBleedingSaturation_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetColorBleedingSaturation*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetColorBleedingSaturation" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetColorBleedingSaturation">GetColorBleedingSaturation()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetColorBleedingSaturation()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetCurrentPreset.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetCurrentPreset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L274">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetCurrentPreset_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetCurrentPreset*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetCurrentPreset" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetCurrentPreset">GetCurrentPreset()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HBAO.Preset GetCurrentPreset()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.Preset.html">HBAO.Preset</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetDebugMode.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetDebugMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L365">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetDebugMode_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetDebugMode*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetDebugMode" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetDebugMode">GetDebugMode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HBAO.DebugMode GetDebugMode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.DebugMode.html">HBAO.DebugMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetDeinterleaving.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetDeinterleaving%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L335">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetDeinterleaving_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetDeinterleaving*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetDeinterleaving" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetDeinterleaving">GetDeinterleaving()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HBAO.Deinterleaving GetDeinterleaving()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.Deinterleaving.html">HBAO.Deinterleaving</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetNoiseType.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetNoiseType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L355">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetNoiseType_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetNoiseType*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetNoiseType" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetNoiseType">GetNoiseType()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HBAO.NoiseType GetNoiseType()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.NoiseType.html">HBAO.NoiseType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetQuality.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetQuality%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L325">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetQuality_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetQuality*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetQuality" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetQuality">GetQuality()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HBAO.Quality GetQuality()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.Quality.html">HBAO.Quality</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetResolution.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetResolution%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L345">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetResolution_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetResolution*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetResolution" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetResolution">GetResolution()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HBAO.Resolution GetResolution()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.Resolution.html">HBAO.Resolution</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_GetTemporalFilterVarianceClipping.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.GetTemporalFilterVarianceClipping%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L495">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetTemporalFilterVarianceClipping_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetTemporalFilterVarianceClipping*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_GetTemporalFilterVarianceClipping" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.GetTemporalFilterVarianceClipping">GetTemporalFilterVarianceClipping()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HBAO.VarianceClipping GetTemporalFilterVarianceClipping()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.VarianceClipping.html">HBAO.VarianceClipping</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_IsActive.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.IsActive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L568">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_IsActive_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.IsActive*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_IsActive" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.IsActive">IsActive()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsActive()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_IsColorBleedingEnabled.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.IsColorBleedingEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L525">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_IsColorBleedingEnabled_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.IsColorBleedingEnabled*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_IsColorBleedingEnabled" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.IsColorBleedingEnabled">IsColorBleedingEnabled()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsColorBleedingEnabled()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_IsTemporalFilterEnabled.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.IsTemporalFilterEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L485">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_IsTemporalFilterEnabled_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.IsTemporalFilterEnabled*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_IsTemporalFilterEnabled" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.IsTemporalFilterEnabled">IsTemporalFilterEnabled()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsTemporalFilterEnabled()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_IsTileCompatible.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.IsTileCompatible%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L570">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_IsTileCompatible_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.IsTileCompatible*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_IsTileCompatible" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.IsTileCompatible">IsTileCompatible()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsTileCompatible()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoBias_System_Single_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoBias(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L400">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoBias_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoBias*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoBias_System_Single_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoBias(System.Single)">SetAoBias(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAoBias(float bias)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bias</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoColor_UnityEngine_Color_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoColor(UnityEngine.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L450">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoColor_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoColor*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoColor_UnityEngine_Color_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoColor(UnityEngine.Color)">SetAoColor(Color)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAoColor(Color baseColor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td><span class="parametername">baseColor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoDistanceFalloff_System_Single_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoDistanceFalloff(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L430">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoDistanceFalloff_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoDistanceFalloff*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoDistanceFalloff_System_Single_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoDistanceFalloff(System.Single)">SetAoDistanceFalloff(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAoDistanceFalloff(float distanceFalloff)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">distanceFalloff</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoIntensity_System_Single_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoIntensity(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L460">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoIntensity_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoIntensity*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoIntensity_System_Single_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoIntensity(System.Single)">SetAoIntensity(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAoIntensity(float intensity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">intensity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoMaxDistance_System_Single_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoMaxDistance(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L420">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoMaxDistance_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoMaxDistance*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoMaxDistance_System_Single_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoMaxDistance(System.Single)">SetAoMaxDistance(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAoMaxDistance(float maxDistance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">maxDistance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoMaxRadiusPixels_System_Single_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoMaxRadiusPixels(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L390">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoMaxRadiusPixels_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoMaxRadiusPixels*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoMaxRadiusPixels_System_Single_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoMaxRadiusPixels(System.Single)">SetAoMaxRadiusPixels(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAoMaxRadiusPixels(float maxRadiusPixels)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">maxRadiusPixels</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoMultiBounceInfluence_System_Single_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoMultiBounceInfluence(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L480">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoMultiBounceInfluence_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoMultiBounceInfluence*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoMultiBounceInfluence_System_Single_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoMultiBounceInfluence(System.Single)">SetAoMultiBounceInfluence(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAoMultiBounceInfluence(float multiBounceInfluence)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">multiBounceInfluence</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoOffscreenSamplesContribution_System_Single_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoOffscreenSamplesContribution(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L410">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoOffscreenSamplesContribution_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoOffscreenSamplesContribution*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoOffscreenSamplesContribution_System_Single_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoOffscreenSamplesContribution(System.Single)">SetAoOffscreenSamplesContribution(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAoOffscreenSamplesContribution(float offscreenSamplesContribution)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">offscreenSamplesContribution</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoPerPixelNormals_HorizonBasedAmbientOcclusion_Universal_HBAO_PerPixelNormals_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoPerPixelNormals(HorizonBasedAmbientOcclusion.Universal.HBAO.PerPixelNormals)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L440">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoPerPixelNormals_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoPerPixelNormals*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoPerPixelNormals_HorizonBasedAmbientOcclusion_Universal_HBAO_PerPixelNormals_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoPerPixelNormals(HorizonBasedAmbientOcclusion.Universal.HBAO.PerPixelNormals)">SetAoPerPixelNormals(HBAO.PerPixelNormals)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAoPerPixelNormals(HBAO.PerPixelNormals perPixelNormals)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.PerPixelNormals.html">HBAO.PerPixelNormals</a></td>
+        <td><span class="parametername">perPixelNormals</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoRadius_System_Single_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoRadius(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L380">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoRadius_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoRadius*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetAoRadius_System_Single_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetAoRadius(System.Single)">SetAoRadius(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAoRadius(float radius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">radius</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetBlurSharpness_System_Single_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetBlurSharpness(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L520">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetBlurSharpness_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetBlurSharpness*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetBlurSharpness_System_Single_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetBlurSharpness(System.Single)">SetBlurSharpness(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBlurSharpness(float sharpness)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">sharpness</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetBlurType_HorizonBasedAmbientOcclusion_Universal_HBAO_BlurType_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetBlurType(HorizonBasedAmbientOcclusion.Universal.HBAO.BlurType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L510">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetBlurType_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetBlurType*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetBlurType_HorizonBasedAmbientOcclusion_Universal_HBAO_BlurType_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetBlurType(HorizonBasedAmbientOcclusion.Universal.HBAO.BlurType)">SetBlurType(HBAO.BlurType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetBlurType(HBAO.BlurType blurType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.BlurType.html">HBAO.BlurType</a></td>
+        <td><span class="parametername">blurType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetColorBleedingBrightnessMask_System_Single_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetColorBleedingBrightnessMask(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L550">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetColorBleedingBrightnessMask_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetColorBleedingBrightnessMask*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetColorBleedingBrightnessMask_System_Single_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetColorBleedingBrightnessMask(System.Single)">SetColorBleedingBrightnessMask(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetColorBleedingBrightnessMask(float brightnessMask)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">brightnessMask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetColorBleedingBrightnessMaskRange_UnityEngine_Vector2_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetColorBleedingBrightnessMaskRange(UnityEngine.Vector2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L560">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetColorBleedingBrightnessMaskRange_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetColorBleedingBrightnessMaskRange*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetColorBleedingBrightnessMaskRange_UnityEngine_Vector2_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetColorBleedingBrightnessMaskRange(UnityEngine.Vector2)">SetColorBleedingBrightnessMaskRange(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetColorBleedingBrightnessMaskRange(Vector2 brightnessMaskRange)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">brightnessMaskRange</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetColorBleedingSaturation_System_Single_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetColorBleedingSaturation(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L540">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetColorBleedingSaturation_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetColorBleedingSaturation*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetColorBleedingSaturation_System_Single_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetColorBleedingSaturation(System.Single)">SetColorBleedingSaturation(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetColorBleedingSaturation(float saturation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">saturation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetDebugMode_HorizonBasedAmbientOcclusion_Universal_HBAO_DebugMode_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetDebugMode(HorizonBasedAmbientOcclusion.Universal.HBAO.DebugMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L370">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetDebugMode_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetDebugMode*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetDebugMode_HorizonBasedAmbientOcclusion_Universal_HBAO_DebugMode_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetDebugMode(HorizonBasedAmbientOcclusion.Universal.HBAO.DebugMode)">SetDebugMode(HBAO.DebugMode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDebugMode(HBAO.DebugMode debugMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.DebugMode.html">HBAO.DebugMode</a></td>
+        <td><span class="parametername">debugMode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetDeinterleaving_HorizonBasedAmbientOcclusion_Universal_HBAO_Deinterleaving_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetDeinterleaving(HorizonBasedAmbientOcclusion.Universal.HBAO.Deinterleaving)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L340">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetDeinterleaving_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetDeinterleaving*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetDeinterleaving_HorizonBasedAmbientOcclusion_Universal_HBAO_Deinterleaving_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetDeinterleaving(HorizonBasedAmbientOcclusion.Universal.HBAO.Deinterleaving)">SetDeinterleaving(HBAO.Deinterleaving)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDeinterleaving(HBAO.Deinterleaving deinterleaving)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.Deinterleaving.html">HBAO.Deinterleaving</a></td>
+        <td><span class="parametername">deinterleaving</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetNoiseType_HorizonBasedAmbientOcclusion_Universal_HBAO_NoiseType_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetNoiseType(HorizonBasedAmbientOcclusion.Universal.HBAO.NoiseType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L360">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetNoiseType_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetNoiseType*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetNoiseType_HorizonBasedAmbientOcclusion_Universal_HBAO_NoiseType_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetNoiseType(HorizonBasedAmbientOcclusion.Universal.HBAO.NoiseType)">SetNoiseType(HBAO.NoiseType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetNoiseType(HBAO.NoiseType noiseType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.NoiseType.html">HBAO.NoiseType</a></td>
+        <td><span class="parametername">noiseType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetQuality_HorizonBasedAmbientOcclusion_Universal_HBAO_Quality_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetQuality(HorizonBasedAmbientOcclusion.Universal.HBAO.Quality)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L330">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetQuality_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetQuality*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetQuality_HorizonBasedAmbientOcclusion_Universal_HBAO_Quality_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetQuality(HorizonBasedAmbientOcclusion.Universal.HBAO.Quality)">SetQuality(HBAO.Quality)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetQuality(HBAO.Quality quality)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.Quality.html">HBAO.Quality</a></td>
+        <td><span class="parametername">quality</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetResolution_HorizonBasedAmbientOcclusion_Universal_HBAO_Resolution_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetResolution(HorizonBasedAmbientOcclusion.Universal.HBAO.Resolution)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L350">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetResolution_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetResolution*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetResolution_HorizonBasedAmbientOcclusion_Universal_HBAO_Resolution_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetResolution(HorizonBasedAmbientOcclusion.Universal.HBAO.Resolution)">SetResolution(HBAO.Resolution)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetResolution(HBAO.Resolution resolution)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.Resolution.html">HBAO.Resolution</a></td>
+        <td><span class="parametername">resolution</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_SetTemporalFilterVarianceClipping_HorizonBasedAmbientOcclusion_Universal_HBAO_VarianceClipping_.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.SetTemporalFilterVarianceClipping(HorizonBasedAmbientOcclusion.Universal.HBAO.VarianceClipping)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L500">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetTemporalFilterVarianceClipping_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetTemporalFilterVarianceClipping*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_SetTemporalFilterVarianceClipping_HorizonBasedAmbientOcclusion_Universal_HBAO_VarianceClipping_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.SetTemporalFilterVarianceClipping(HorizonBasedAmbientOcclusion.Universal.HBAO.VarianceClipping)">SetTemporalFilterVarianceClipping(HBAO.VarianceClipping)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetTemporalFilterVarianceClipping(HBAO.VarianceClipping varianceClipping)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HorizonBasedAmbientOcclusion.Universal.HBAO.VarianceClipping.html">HBAO.VarianceClipping</a></td>
+        <td><span class="parametername">varianceClipping</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO_UseMultiBounce.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO.UseMultiBounce%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L465">View Source</a>
+  </span>
+  <a id="HorizonBasedAmbientOcclusion_Universal_HBAO_UseMultiBounce_" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.UseMultiBounce*"></a>
+  <h4 id="HorizonBasedAmbientOcclusion_Universal_HBAO_UseMultiBounce" data-uid="HorizonBasedAmbientOcclusion.Universal.HBAO.UseMultiBounce">UseMultiBounce()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseMultiBounce()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">UnityEngine.Rendering.Universal.IPostProcessComponent</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/new/main/apiSpec/new?filename=HorizonBasedAmbientOcclusion_Universal_HBAO.md&amp;value=---%0Auid%3A%20HorizonBasedAmbientOcclusion.Universal.HBAO%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/VulpiniStudio/Cosmo-Vulpes/blob/main/Cosmo Vulpes/Assets/Additional Packages/Horizon Based Ambient Occlusion/SRP/URP/Runtime/HBAO.cs/#L8" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
