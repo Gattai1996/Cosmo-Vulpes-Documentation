@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SmothChange
+    <title>Class SaveDuringPlay
    | Cosmo Vulpes </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SmothChange
+    <meta name="title" content="Class SaveDuringPlay
    | Cosmo Vulpes ">
     <meta name="generator" content="docfx 2.58.4.0">
     
@@ -68,34 +68,46 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Vulpini.Util.SmothChange">
+            <article class="content wrap" id="_content" data-uid="SaveDuringPlay.SaveDuringPlay">
   
   
-  <h1 id="Vulpini_Util_SmothChange" data-uid="Vulpini.Util.SmothChange" class="text-break">Class SmothChange
+  <h1 id="SaveDuringPlay_SaveDuringPlay" data-uid="SaveDuringPlay.SaveDuringPlay" class="text-break">Class SaveDuringPlay
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>For all registered object types, record their state when exiting Play Mode,
+and restore that state to the objects in the scene.  This is a very limited
+implementation which has not been rigorously tested with many objects types.
+It&apos;s quite possible that not everything will be saved.</p>
+<p>This class is expected to become obsolete when Unity implements this functionality
+in a more general way.</p>
+<p>To use this class,
+drop this script into your project, and add the [SaveDuringPlay] attribute to your class.</p>
+<p>Note: if you want some specific field in your class NOT to be saved during play,
+add a property attribute whose class name contains the string &quot;NoSaveDuringPlay&quot;
+and the field will not be saved.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">SmothChange</span></div>
+    <div class="level1"><span class="xref">SaveDuringPlay</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Vulpini.Util.html">Vulpini.Util</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SaveDuringPlay.html">SaveDuringPlay</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Vulpini_Util_SmothChange_syntax">Syntax</h5>
+  <h5 id="SaveDuringPlay_SaveDuringPlay_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SmothChange : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class SaveDuringPlay</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Vulpini_Util_SmothChange_member" data-uid="Vulpini.Util.SmothChange.member">member</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="SaveDuringPlay_SaveDuringPlay_kEnabledKey" data-uid="SaveDuringPlay.SaveDuringPlay.kEnabledKey">kEnabledKey</h4>
+  <div class="markdown level1 summary"><p>Editor preferences key for SaveDuringPlay enabled</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent member</code></pre>
+    <pre><code class="lang-csharp hljs">public static string kEnabledKey</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -107,23 +119,64 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEvent</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="Vulpini_Util_SmothChange_Run_" data-uid="Vulpini.Util.SmothChange.Run*"></a>
-  <h4 id="Vulpini_Util_SmothChange_Run" data-uid="Vulpini.Util.SmothChange.Run">Run()</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="SaveDuringPlay_SaveDuringPlay_OnHotSave" data-uid="SaveDuringPlay.SaveDuringPlay.OnHotSave">OnHotSave</h4>
+  <div class="markdown level1 summary"><p>If you need to get notified before state is collected for hotsave, this is the place</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Run()</code></pre>
+    <pre><code class="lang-csharp hljs">public static SaveDuringPlay.OnHotSaveDelegate OnHotSave</code></pre>
   </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SaveDuringPlay.SaveDuringPlay.OnHotSaveDelegate.html">SaveDuringPlay.OnHotSaveDelegate</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="SaveDuringPlay_SaveDuringPlay_Enabled_" data-uid="SaveDuringPlay.SaveDuringPlay.Enabled*"></a>
+  <h4 id="SaveDuringPlay_SaveDuringPlay_Enabled" data-uid="SaveDuringPlay.SaveDuringPlay.Enabled">Enabled</h4>
+  <div class="markdown level1 summary"><p>Enabled status for SaveDuringPlay.<br>This is a global setting, saved in Editor Prefs</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Enabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
