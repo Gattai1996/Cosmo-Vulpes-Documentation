@@ -65,23 +65,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Characters.Protagonists.Klaus.PlayerController2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Characters.Protagonists.Klaus.PlayerController2.html",
-          "hash": "j9FAsbit4IWv1/NCgSRZotu5Q/ARmlW6OgfzJ6SCFVk="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/Characters.Protagonists.Klaus.PlayerInputController.yml",
       "output": {
         ".html": {
           "relative_path": "api/Characters.Protagonists.Klaus.PlayerInputController.html",
-          "hash": "KJec4n05Vt2lz30yMZK9f8NX7GIMfHMHuK+H4JfjSY0="
+          "hash": "ECWH1IO7gfzj1z32jQuCgNw5wYNBZNou3PS5KXFlI3g="
         }
       },
       "is_incremental": true,
@@ -93,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Characters.Protagonists.Klaus.html",
-          "hash": "N0/bhsQM2XBpA7mdpCao7PaLD+rYTnzXkBaB+KBC5+s="
+          "hash": "wPDofr5wktUtKUunmsMZ7a9lLVS4usRI/71wrQn1FtU="
         }
       },
       "is_incremental": true,
@@ -321,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "EGAKIAInhRlSjpMnUkQXmRHEMkQzRqbCBRMhrEYBazU="
+          "hash": "6qAqQpjX5LJFrvWRfzr2K5zOmkJn2T1NEyTnYkIgcEs="
         }
       },
       "is_incremental": false,
@@ -358,8 +346,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 22,
-          "skipped_file_count": 22
+          "total_file_count": 21,
+          "skipped_file_count": 21
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
